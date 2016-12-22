@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import os
-import socket
+import connection
 from itertools import groupby
 
 
@@ -63,17 +63,10 @@ def main():
 	
 	r = sr.Recognizer()
 	
-	while True:
-		try:
-			#Open socket
-			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			s.connect((HOST, PORT))
-			print 'OPENING SOCKET'
-			break
-		except Exception as e:
-			print "ERROR OPENING SOCKET: " + str(e)
+	#Create and open the connection
 	
-
+	s = connection.Client(HOST, PORT)
+	s.connect()
 
 	try:
 		while True:
@@ -104,7 +97,8 @@ def main():
 
 					for c in valid_commands:
 						print 'Sending: '+ c
-						s.send(c)
+						# #Send command
+						s.send_message(c)
 
 					# duration = duration + 10
 					# offset = offset + 1
@@ -112,8 +106,8 @@ def main():
 
 
 	except KeyboardInterrupt:
-		print '\nCLOSING SOCKET'
-		s.close()
+		# Close connection
+		s.destroy()
 		print 'Finishing program'
 
 

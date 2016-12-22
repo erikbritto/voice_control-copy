@@ -63,33 +63,17 @@ def main():
 	HOST = ''
 	PORT = 57000
 
-	while True: 
-		try:
-			#Create the socket
-			print 'OPENING SOCKET'
-			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			s.bind((HOST, PORT)) #Bind it to port
-			s.listen(1) #Start listening
-			print 'LISTENING ON PORT: ' + str(PORT)
-			break
-		except Exception as e:
-			print "ERROR OPENING SOCKET: " + str(e)
+
+	conn = connection.Server(HOST, PORT)
 
 	try:
 		print 'Opening connection'
-		conn, addr = s.accept() #Accept connection
+
+		conn.connect()
 
 		while True:
-			dados = conn.recv(1024) #Receives data from socket, on socket disconnect return 0
-			if not dados: #If length of data received is 0 (connection was closed orderly on the other side)
-				#Elegantly exit
-				print "ERROR: Connection was closed on the other side"
-				print 'Closing connection'
-				conn.close()
-				print 'Closing socket'
-				s.close()
-				print 'Exiting'
-				quit()
+
+			dados = conn.receive_message()
 
 			print 'Received: ' + dados
 
@@ -103,17 +87,16 @@ def main():
 				
 					print d
 				#CRIA STRING VAZIA NO SPLIT COM VIRGULA SE A VIRGULA ESTA NO FINAL DA STRING ATUAL
-
-		# print 'Closing connection'
-		# conn.close()
+		
 	except KeyboardInterrupt:
-		print '\nCLOSING SOCKET'
-		s.close()
-		print 'Finishing program'
+		print '\nINTERRUPTED BY USER'		
 	except Exception as e:
 		print "ERROR: " + str(e)
-		print 'CLOSING SOCKET'
-		s.close()
+	finally:
+		conn.disconnect()
+		conn.destroy()
+		print 'Finishing program'
+
 
 
 if(__name__ == '__main__'):

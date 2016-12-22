@@ -1,5 +1,4 @@
-import os
-import socket
+import connection
 
 
 import pyaudio
@@ -35,34 +34,11 @@ PREV_AUDIO = 0.5  # Previous audio (in seconds) to prepend. When noise
 
 
 def send_audio(filename):
-	while True:
-		try:
-			print 'OPENING SOCKET'
-			s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-			s.connect((HOST,PORT))
-			break
-		except Exception as e:
-			print "ERROR OPENING SOCKET: " + str(e)
 
-	try:
-		print 'Sending file'
-		###############################
-		file = open(filename, 'r')
-
-		for line in file.readlines():
-			s.send(line)
-
-		file.close()
-		###############################
-	except IOError:
-		print 'ERROR: ' + str(e)
-	except KeyboardInterrupt:
-		print "Finished"
-	finally:
-		print 'Finished sending'
-		print 'CLOSING SOCKET'
-		s.close()
-
+	s = connection.Client(HOST, PORT)
+	s.connect()
+	s.send_file(filename)
+	
 
 def listen_for_speech(threshold=THRESHOLD):
 	"""
