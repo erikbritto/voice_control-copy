@@ -5,9 +5,6 @@ class Connection():
 
 	""" Manages socket connections side.
 	
-
-	The __init__ method is inherited from super class Connection.
-
 	Attributes:
 		Inherited:
 			HOST (str): Host machine in which the socket has been opened.
@@ -37,6 +34,7 @@ class Connection():
 				self.HOST = HOST
 				self.PORT = PORT
 				self.connected = False
+				self.log = logging.getLogger("vc_loggerS")
 				break
 			except Exception as e:
 				print 'ERROR OPENING SOCKET: ' + str(e)
@@ -211,7 +209,6 @@ class Client(Connection):
 	def connect(self):
 		""" Connect to a server on the host and port 
 		
-		[description]
 		"""
 		attempts = 0
 		while True:
@@ -237,8 +234,8 @@ class Client(Connection):
 		""" Send a file to the server on a socket. 
 		
 		Args:
-			filename {[type]} -- [description]
-			path {str} -- [description] (default: {''})
+			filename {str} -- Name of the file
+			path {str} -- Path to file(default: {''})
 		"""
 
 		closenow = False
@@ -252,7 +249,7 @@ class Client(Connection):
 			file = open(path+filename, 'r')
 
 			for line in file.readlines():
-				self.s.send(line)
+				self.s.sendall(line)
 
 			file.close()
 			###############################
@@ -277,7 +274,7 @@ class Client(Connection):
 			print 'Sending message'
 			###############################
 
-			self.s.send(message)
+			self.s.sendall(message)
 
 			###############################
 		except IOError:
