@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "telecomand-153417",
+  "private_key_id": "cbc80613430d9cfe6ac542b94507ff9910aeea70",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDI/JS243wFRSNa\n+mk1RnNS7wCA415I2OQ6OY/0SjaBhyKtlmGVMgVd1Rdh5NWhoqN4o3w5ZwmSyJzU\neIwMh8/LwmpK2Cj9NgLokiZeGqM/FzsDCseUqdqgBLyF1K3k/2SUjIJAR17Pis1h\nnmjOt97m+fLIF7uJoP2FZk3HGy6kHecZpqmz0t9NN5dozZncGkm3r9a536/gP2rq\nC7Z2/pE2J5qyzgjDxlYJrg1Yx5TJ9dXqFTKla+J8c6UXg10sSX+fwGPPgcllMott\nSZwu5oM2k4f+sn6uzlDF6tdpccMA0ITy00x4T+j1XtBTq+OiA38AH55QWvUJwrND\nJo1/N3tjAgMBAAECggEBAJQ3gEwnEmyogdwz0qZRH/bG/i4OfpdmK1is3nYezHdU\n+sPcpHXr/30lCitNICYk1DzBA3kpfSvb+ZvOkikjdqAi7VPoeMHStO5h6R14s25x\naTljF6+QWwOquoRPRTYdCUVrIRraBxcymyckNNJNUnovVVUt+0URjiR0P2NXrluj\nyxhgJ6RPtnwVksL/ZrMvZ1AKhrlcpOBhmg/D1eBj/4nlbMby2GUQV1P1GM/PUoYC\nolflAYt1FCHXQcFApZXrfXAk2GYO8PBWtVF+B7SUEa0SoQ1HIIFC3ffGAm09SMOM\nr77axx5tEsOnTCuR70ntaXHeC7bPP6JIs+szartVHZECgYEA5SIsbNDHgFHA5h0I\nNG0HWdnpKfQ0t9fqCaTAOWoiDq61SPGQJPIxiCvkjD+6fB5Fy4AVJMZcHr8OASwh\n/JGZar44h/8BLWj8tDymrsiExI45DOcbONB7gZK2ArDl0Pqqv2dWknvc4D7eWZzK\nJVTtfAwMPpFMR2hZNfZXXOrH/68CgYEA4I2IU9oTKfNb6t7VdUTARUmPAA+7kXJw\nVsPUA1uQSaFSezeWZO/SoLFSkua6z/KQm13fq/tauo+KIKt0fqqi7Wu/OBpokQ5h\nb5+kX1Ki169P3XpCzIDg601UtOwTnCrLZj7DjpkWuUFa2JCl6lnbwmX+bqW2N6ZD\nI4HYeGbs2I0CgYEAqKJrAbbybR0+E92gET2A4H8BHHBvcDKHO4u2MUtMP3QTVdj7\nFkXtcGOldBbe/8Qj5+6fIQ6f87z26KP7a3AY8jeHUYe67RnMijXtEsve8u4dTMK2\nBS1jCGzaacaZjSE/E1lRnMNuPtfmOxuqpqkHk3kmddHnytIgfheMGoVspl8CgYEA\nhCQFg4KjIF6rSo2TA41Pr/ZXhmu7rx2u6gAXNVqekBW02fmeMQvH4PQ4aWYJrPFL\nE4KsayJhA8QQPqVmyltTwW9UeYlg22ug/vTs34NbfJ0X3Hdj88Arm4xIOqdp6s5s\nH2Dz52hDLQU+lo6YdE4ouj8W+LnffuQCQlTYtBGtcskCgYBCmjBcqdZWAgnGbPu6\nNX3RsGexJmOH3VkH2ytToFrL/oivcdeVBx6wuOxH3xiaOmRkw0AMB45mEnshAaLv\n38o6l/NCWPl05CmKHuvKANAdZS79YB9Mz7r7L41jQPdeK6Waz94J+oL49z/8Zx89\nib9pnf1k80iTy+s+JkJ0J+MRyw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "futebol@telecomand-153417.iam.gserviceaccount.com",
+  "client_id": "114302921457901536727",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/futebol%40telecomand-153417.iam.gserviceaccount.com"
+}
