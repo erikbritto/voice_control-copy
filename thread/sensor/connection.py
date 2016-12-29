@@ -277,7 +277,7 @@ class Client(Connection):
 			file = open(path+filename, 'r')
 
 			for line in file.readlines():
-				self.s.send(line)
+				self.s.sendall(line)
 
 			file.close()
 			###############################
@@ -301,7 +301,7 @@ class Client(Connection):
 		try:
 			###############################
 
-			self.s.send(message)
+			self.s.sendall(message)
 
 			###############################
 		except IOError:

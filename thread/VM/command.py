@@ -1,13 +1,13 @@
 class Command():
 
-	options = ('on_off', 'light_number', 'color', 'brightness_number')
+	options = ('light_number', 'on_off', 'color', 'brightness_number')
 
 	def __init__(self, command, MAX_LAMPS = 3):
 		self.command = command
 		self.valid = False
 		self.cmd_var = { 
-						'on_off' : '',
 						'light_number' : 'all,',
+						'on_off' : '',
 						'color'  : '',
 						'brightness_number'  : ''
 					}
@@ -21,8 +21,8 @@ class Command():
 		self.command = command
 		self.valid = False
 		self.cmd_var = { 
-						'on_off' : '',
 						'light_number' : 'all,',
+						'on_off' : '',
 						'color'  : '',
 						'brightness_number'  : ''
 					}
@@ -55,6 +55,23 @@ class Command():
 
 
 	def __validate_command(self):
+
+		#Check if all lights are in range
+		lights = (self.cmd_var['light_number'][:-1]).split(',')
+		n_lights = []
+		for l in lights:
+			if l == 'all':
+				n_lights = [l]
+				break
+			elif (0 <= int(l) <= self.MAX_LAMPS):
+				n_lights.append(l)
+		self.cmd_var['light_number'] = ','.join(n_lights) + ','
+
+		#Check if command is for 'on' or 'off'
+		if self.cmd_var['on_off'][:-1] not in ('on','off'):
+			self.cmd_var['on_off'] = ''
+
+		#Check if color is valid
 		if not (self.cmd_var['color'][:-1] in ('red', 'blue', 'white', 'yellow', 'green', 'pink')):
 			self.cmd_var['color'] = ''
 
@@ -62,17 +79,6 @@ class Command():
 		if self.cmd_var['brightness_number'] != '':
 			if not (0 <= int(self.cmd_var['brightness_number'][:-1]) <= 100):
 				self.cmd_var['brightness_number'] = ''
-
-		lights = (self.cmd_var['light_number'][:-1]).split(',')
-		n_lights = []
-		for l in lights:
-			if l == 'all':
-				n_lights = [l]
-				break
-			elif ( 0 <= int(l) <= self.MAX_LAMPS):
-				n_lights.append(l)
-		self.cmd_var['light_number'] = ','.join(n_lights) + ','
-
 
 
 	def format_command(self):

@@ -18,19 +18,52 @@ from command import Command
 from wit import Wit
 
 
-def encode_command(command):
-	return '|'.join(command)+'/'
+#Google Cloud dependencies
+import base64
+import json
+from googleapiclient import discovery
+import httplib2
+from oauth2client.client import GoogleCredentials
 
+
+DISCOVERY_URL = ('https://{api}.googleapis.com/$discovery/rest?'
+				 'version={apiVersion}')
+
+
+def get_speech_service():
+	credentials = GoogleCredentials.get_application_default().create_scoped(
+		['https://www.googleapis.com/auth/cloud-platform'])
+	http = httplib2.Http()
+	credentials.authorize(http)
+
+	return discovery.build(
+		'speech', 'v1beta1', http=http, discoveryServiceUrl=DISCOVERY_URL)
+
+
+def encode_command(command):
+		if command[0] != '':
+			return '|'.join(command)+'/'
+		else:
+			return ''
+
+
+def multi_replace(d, string):
+	list_of_string = string.split()
+
+	for i,s in enumerate(list_of_string):
+		if s in d.keys():
+			list_of_string[i] = d[s]
+
+	return ' '.join(list_of_string)
 
 
 class AudioProcessing():
 
 
-	def __init__(self, args, CHUNK = 1024, FORMAT = pyaudio.paInt16, CHANNELS = 1, RATE = 16000):
+	def __init__(self, args, FORMAT = pyaudio.paInt16, CHANNELS = 1, RATE = 16000):
 		vc_logging.init_logger(level = args.log_level, verbose = args.verbose)
 		self.log = logging.getLogger("vc_logger")
 
-		self.CHUNK = CHUNK
 		self.FORMAT = FORMAT
 		self.CHANNELS = CHANNELS
 		self.RATE = RATE
@@ -45,12 +78,23 @@ class AudioProcessing():
 		self. SAVED_FILES = 0
 		self.RECOGNIZERS = (self.wit,self.google,self.bing)
 
-		self.services = ('Wit.ai', 'Google', 'Bing')
+		self.services = ('Wit.ai', 'Google', 'Bing', 'Google Cloud')
 		self.keys = {
-			'Wit.ai' : "YY76MAH6SUSS2QHLHOHWMVXIACVBRWSJ",
+			'Wit.ai' : "YY76MAH6SUSS2QHLHOHWMVXIACVBRWSJ", # Wit.ai keys are 32-character uppercase alphanumeric strings
 			'Google' : None,
-			'Bing'   : "584daf06114c4695b82c234182bac530"
+			'Bing'   : "584daf06114c4695b82c234182bac530"  # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
 		}
+
+		self.similar = {
+						'to'		: 'two',
+						'too'		: 'two',
+						'tree'		: 'three',
+						'tri'		: 'three',
+						'breakfast' : 'brightness',
+						'retina'	: 'brightness',
+						'like'		: 'light',
+						'lite'		: 'light'
+						}
 
 #######################################################################
 #Debug Functions
@@ -97,19 +141,64 @@ class AudioProcessing():
 
 # ============================== RECOGNIZERS =========================================
 
+
+	def google_cloud(self,audio,d):
+
+		try:
+			speech_content = base64.b64encode(audio)
+
+			service = get_speech_service()
+			service_request = service.speech().syncrecognize(
+				body={
+					'config': {
+						'encoding': 'LINEAR16',  # raw 16-bit signed LE samples
+						'sampleRate': self.RATE,  # 16 khz
+						'languageCode': 'en-US',  # a BCP-47 language tag
+						"speech_context": {
+							"phrases":["on", "off", 'lamp', "lamps", 'light', "lights",
+							 "brightness", "color", 'two', 'three',
+							'red', 'blue', 'white', 'yellow', 'green', 'pink']
+						}
+
+					},
+					'audio': {
+						'content': speech_content.decode('UTF-8')
+						}
+					})
+
+			start = timeit.default_timer()
+			response = service_request.execute()
+			stop = timeit.default_timer()
+			json_response = response['results'][0]['alternatives'][0]
+
+			confidence = json_response['confidence']
+			speech = json_response['transcript']
+			
+			
+			self.log.info('Google Cloud (running time ' + str(stop-start) 
+					+ ', confidence ' + str(confidence) + '): ' + speech)
+			speech = multi_replace(self.similar,speech)
+
+			client = Wit(access_token=self.keys['Wit.ai'])
+			message = client.message(msg = speech, verbose = True)
+			
+			d['Google Cloud'] = message
+		except Exception as e:
+			d['Google Cloud'] = {}
+			self.log.debug("Google Cloud ERROR: " + str(e))
+
+
 	def google(self, audio,d):
 
 		r = sr.Recognizer()
 		# recognize speech using Google Speech Recognition
 		try:
-			# for testing purposes, we're just using the default API key
-			# to use another API key, use 
-			# 'r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")'
-			# instead of 'r.recognize_google(audio)'
+
 			start = timeit.default_timer()
 			speech = r.recognize_google(audio)
 			stop = timeit.default_timer()
-			print 'google: '+speech
+			self.log.info('Google (running time ' + str(stop-start) + '): ' + speech)
+			speech = multi_replace(self.similar,speech)
 
 			client = Wit(access_token=self.keys['Wit.ai'])
 			message = client.message(msg = speech, verbose = True)
@@ -117,10 +206,10 @@ class AudioProcessing():
 			d['Google'] = message
 
 		except sr.UnknownValueError:
-			d['Google'] = ''
+			d['Google'] = {}
 			self.log.debug("Google Speech Recognition could not understand audio")
 		except sr.RequestError as e:
-			d['Google'] = ''
+			d['Google'] = {}
 			self.log.debug("Could not request results from \
 				Google Speech Recognition service; {0}".format(e))
 
@@ -129,45 +218,41 @@ class AudioProcessing():
 		r = sr.Recognizer()
 		# recognize speech using Wit.ai
 		
-		# Wit.ai keys are 32-character uppercase alphanumeric strings
-		WIT_AI_KEY = "YY76MAH6SUSS2QHLHOHWMVXIACVBRWSJ"
 		try:
 			start = timeit.default_timer()
-			speech = r.recognize_wit(audio, key=WIT_AI_KEY, show_all = True)
+			speech = r.recognize_wit(audio, key=self.keys['Wit.ai'], show_all = True)
 			stop = timeit.default_timer()
-			print 'wit: '+ speech['_text']
+			self.log.info('Wit.ai (running time ' + str(stop-start) + '): '+ speech['_text'])
 			d['Wit.ai'] = speech
 		except sr.UnknownValueError:
-			d['Wit.ai'] = ''
+			d['Wit.ai'] = {}
 			self.log.debug("Wit.ai could not understand audio")
 		except sr.RequestError as e:
-			d['Wit.ai'] = ''
+			d['Wit.ai'] = {}
 			self.log.debug("Could not request results from Wit.ai service; {0}".format(e))
 
 
 	def bing(self, audio,d):
 		r = sr.Recognizer()
 		# recognize speech using Microsoft Bing Voice Recognition
-		
-		# Microsoft Bing Voice Recognition API keys 32-character
-		# lowercase hexadecimal strings
-		BING_KEY = "584daf06114c4695b82c234182bac530"
+
 		try:
 			start = timeit.default_timer()
-			speech = r.recognize_bing(audio, key=BING_KEY)
+			speech = r.recognize_bing(audio, key=self.keys['Bing'])
 			stop = timeit.default_timer()
-			print 'bing: '+ speech
+			self.log.info('Bing (running time ' + str(stop-start) + '): '+ speech)
 
+			speech = multi_replace(self.similar,speech)
 			client = Wit(access_token=self.keys['Wit.ai'])
 			message = client.message(msg = speech, verbose = True)
 
 			d['Bing'] = message
 
 		except sr.UnknownValueError:
-			d['Bing'] = ''
+			d['Bing'] = {}
 			self.log.debug("Microsoft Bing Voice Recognition could not understand audio")
 		except sr.RequestError as e:
-			d['Bing'] = ''
+			d['Bing'] = {}
 			self.log.debug("Could not request results from Microsoft Bing Voice Recognition \
 				service; {0}".format(e))
 
@@ -179,11 +264,13 @@ class AudioProcessing():
 		print('CONNECTION FROM: ' + str(recv_socket.addr[0]) + ":" 
 								  + str(recv_socket.addr[1]))
 
-		recv_audio = []
+		#recv_audio = []
+		recv_audio = ''
 		#Receive audio from socket until the connection closes on the other end
 		data = recv_socket.receive_message()
 		while data:
-			recv_audio.append(data)
+			#recv_audio.append(data)
+			recv_audio += data
 			data = recv_socket.receive_message()
 
 		self.AUDIO_QUEUE.put(recv_audio)
@@ -194,7 +281,6 @@ class AudioProcessing():
 			self.play(recv_audio)
 
 
-
 	def analyze_commands(self, formatted_commands):
 		features = zip(*formatted_commands)
 		result = ['','','','','']
@@ -203,21 +289,24 @@ class AudioProcessing():
 				if j != '':
 					result[i] = j
 					break
-		for f in features[2]:
+
+		for f in features[1]:
 			if f != 'all' and f != '':
+				if result[1] == 'all' or len(result[1]) < len(f):
+					result[1] = f
+
+		for f in features[2]:
+			if f == 'on':
 				result[2] = f
 				break
+
+		#As long as it only supports one color and one brightness value at a time
+		result[3] = result[3].split(',')[0]
+		result[4] = result[4].split(',')[0]
 		return result
 
 
-	def encode_command(self, command):
-		if command[0] != '':
-			return '|'.join(command)+'/'
-		else:
-			return ''
-
-
-	def speechToText(self , send_socket):
+	def speechToText(self):# , send_socket):
 		print('Starting Recognizer thread')
 
 		r = sr.Recognizer()
@@ -229,11 +318,17 @@ class AudioProcessing():
 			if frames == None:
 				break
 			
-			audioData = sr.AudioData(b''.join(frames),self.RATE, self.WIDTH)
-			self.AUDIO_QUEUE.task_done()
-
 			speech_threads = []
 			result_dict = {}
+
+
+			t = Thread(target=self.google_cloud, args=(frames,result_dict))
+			speech_threads.append(t)
+
+
+			#audioData = sr.AudioData(b''.join(frames),self.RATE, self.WIDTH)
+			audioData = sr.AudioData(frames,self.RATE, self.WIDTH)
+			self.AUDIO_QUEUE.task_done()
 
 
 			for recognizer in self.RECOGNIZERS:
@@ -246,26 +341,25 @@ class AudioProcessing():
 			for t in speech_threads:
 				t.join()
 
-			# for key, value in result_dict.iteritems():
-			# 	self.log.info(key+' ('+str(value[0])+' seconds)'+value[1])
-
 
 			formatted_commands = []
 			for i in self.services:
-				if result_dict[i] != '':
+				if result_dict[i]:
 					c = Command(result_dict[i])
 					formatted_commands.append(c.format_command())
+					self.log.info(i + ': ' + str(formatted_commands[-1]))
 				else:
-					formatted_commands.append(['','','','',''])				
+					formatted_commands.append(['','','','',''])
 
 
 			command_list = self.analyze_commands(formatted_commands)
-			text = self.encode_command(command_list)
+			text = encode_command(command_list)
 
 			if text:
 				self.log.info("Command: \n\n" + text)
 				
-				send_socket.send_message(text)
+				#send_socket.send_message(text)
+
 
 	def main(self, save = False, play = False):
 		#Try with 127.0.0.1
@@ -280,10 +374,10 @@ class AudioProcessing():
 		recv_socket.connect()
 
 		#Open sending end
-		send_socket = connection.Client(HOST_SEND, PORT)
-		send_socket.connect()
+		#send_socket = connection.Client(HOST_SEND, PORT)
+		#send_socket.connect()
 		#Opening threads
-		stt_thread = Thread(target=self.speechToText, args = (send_socket,))
+		stt_thread = Thread(target=self.speechToText)#, args = (send_socket,))
 		stt_thread.start()
 
 
@@ -304,7 +398,7 @@ class AudioProcessing():
 		finally:
 			self.log.debug('\nCLOSING SOCKETS')
 			recv_socket.destroy()
-			send_socket.destroy()
+			#send_socket.destroy()
 			self.AUDIO_QUEUE.put(None)
 
 
@@ -324,7 +418,7 @@ if __name__ == '__main__':
 	try:
 		ap = AudioProcessing(args)
 
-		ap.main(save = True)
+		ap.main()
 	except KeyboardInterrupt:
 		print('Finishing')
 	except Exception as e:
