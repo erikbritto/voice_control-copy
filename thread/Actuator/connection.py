@@ -141,6 +141,8 @@ class Server(Connection):
 
 		self.conn, self.addr = self.s.accept()
 
+		self.log.debug('Connection accepted')
+
 		self.connected = True
 
 
@@ -184,6 +186,7 @@ class Server(Connection):
 		"""
 
 		try:
+			self.log.debug('receiving message')
 			###############################
 
 			data = self.conn.recv(nbytes)
@@ -203,6 +206,8 @@ class Server(Connection):
 			self.log.debug('SOCKET TIMEOUT: ' + str(e))
 		except Exception as e:
 			self.log.debug('ERROR: error receiving message')
+		else:
+			self.log.info('Finished sending')
 
 	def destroy(self):
 		""" Destructor method for class.
@@ -299,6 +304,7 @@ class Client(Connection):
 		"""
 
 		try:
+			self.log.debug('Sending message')
 			###############################
 
 			self.s.sendall(message)
@@ -308,7 +314,8 @@ class Client(Connection):
 			self.log.debug('ERROR: ' + str(e))
 		except KeyboardInterrupt:
 			self.log.debug('Finished')
-			
+		else:
+			self.log.debug('Finished sending')
 
 	def destroy(self):
 		""" Destructor method for class.

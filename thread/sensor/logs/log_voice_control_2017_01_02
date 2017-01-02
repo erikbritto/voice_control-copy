@@ -1,0 +1,649 @@
+-----------------------------
+----------11:02:54----------
+-----------------------------
+2017-01-02 11:02:54,666 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:02:54,992 20 MainThread audio_int  RATE == 16000
+-----------------------------
+----------11:04:17----------
+-----------------------------
+2017-01-02 11:04:17,097 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:04:17,226 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:04:30,095 20 MainThread audio_int   Finished 
+2017-01-02 11:04:30,096 20 MainThread audio_int   Average audio intensity is 2529.27277775
+2017-01-02 11:04:30,099 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:04:30,232 20 MainThread listen_for_speech * Listening mic. 
+2017-01-02 11:04:52,773 20 MainThread listen_for_speech Starting record of phrase
+2017-01-02 11:04:52,774 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:04:53,797 20 MainThread listen_for_speech Finished
+2017-01-02 11:04:53,798 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:04:53,801 20 MainThread listen_for_speech Listening ...
+2017-01-02 11:06:10,088 20 MainThread listen_for_speech Starting record of phrase
+2017-01-02 11:06:10,089 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:06:12,136 20 MainThread listen_for_speech Finished
+2017-01-02 11:06:12,137 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:06:12,140 20 MainThread listen_for_speech Listening ...
+2017-01-02 11:06:35,688 20 MainThread listen_for_speech Starting record of phrase
+2017-01-02 11:06:35,689 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:06:36,712 20 MainThread listen_for_speech Finished
+2017-01-02 11:06:36,713 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:06:36,716 20 MainThread listen_for_speech Listening ...
+2017-01-02 11:07:07,944 20 MainThread listen_for_speech Starting record of phrase
+2017-01-02 11:07:07,945 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:07:09,480 20 MainThread listen_for_speech Finished
+2017-01-02 11:07:09,482 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:07:09,484 20 MainThread listen_for_speech Listening ...
+2017-01-02 11:08:16,041 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:08:16,042 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------11:09:11----------
+-----------------------------
+2017-01-02 11:09:11,228 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:09:11,369 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:09:17,836 20 MainThread audio_int   Finished 
+2017-01-02 11:09:17,837 20 MainThread audio_int   Average audio intensity is 1604.49837828
+2017-01-02 11:09:17,840 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:09:17,841 20 MainThread listen_for_speech * Listening mic. 
+2017-01-02 11:09:18,245 20 Dummy-1    callback   Starting record of phrase
+2017-01-02 11:09:18,246 20 Dummy-1    __init__   OPENING SOCKET
+2017-01-02 11:09:19,781 20 Dummy-1    callback   Finished
+2017-01-02 11:09:19,782 20 Dummy-1    destroy    CLOSING SOCKET
+2017-01-02 11:09:19,783 20 Dummy-1    callback   Listening ...
+2017-01-02 11:09:35,903 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:09:35,904 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:09:37----------
+-----------------------------
+2017-01-02 11:09:37,316 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:09:37,380 20 MainThread audio_int  RATE == 16000
+-----------------------------
+----------11:09:55----------
+-----------------------------
+2017-01-02 11:09:55,495 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:09:55,627 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:10:02,095 20 MainThread audio_int   Finished 
+2017-01-02 11:10:02,096 20 MainThread audio_int   Average audio intensity is 1724.56880312
+2017-01-02 11:10:02,098 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:10:02,099 20 MainThread listen_for_speech * Listening mic. 
+2017-01-02 11:10:35,416 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:10:50----------
+-----------------------------
+2017-01-02 11:10:50,503 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:10:50,636 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:10:57,104 20 MainThread audio_int   Finished 
+2017-01-02 11:10:57,105 20 MainThread audio_int   Average audio intensity is 1644.84096899
+2017-01-02 11:10:57,108 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:10:57,109 20 MainThread listen_for_speech * Listening mic. 
+2017-01-02 11:11:19,010 20 Dummy-1    callback   Starting record of phrase
+2017-01-02 11:11:19,011 20 Dummy-1    __init__   OPENING SOCKET
+2017-01-02 11:11:21,077 20 Dummy-1    callback   Finished
+2017-01-02 11:11:21,078 20 Dummy-1    destroy    CLOSING SOCKET
+2017-01-02 11:11:21,081 20 Dummy-1    callback   Listening ...
+2017-01-02 11:11:54,768 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:11:54,769 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:11:54,776 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:13:12----------
+-----------------------------
+2017-01-02 11:13:12,003 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:13:12,136 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:13:18,604 20 MainThread audio_int   Finished 
+2017-01-02 11:13:18,605 20 MainThread audio_int   Average audio intensity is 1517.71595312
+2017-01-02 11:13:18,608 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:13:18,610 20 Thread-1   silence_analysys * Listening mic. 
+-----------------------------
+----------11:15:54----------
+-----------------------------
+2017-01-02 11:15:54,108 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:15:54,236 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:16:00,704 20 MainThread audio_int   Finished 
+2017-01-02 11:16:00,705 20 MainThread audio_int   Average audio intensity is 1603.43594574
+2017-01-02 11:16:00,708 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:16:00,710 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:16:20,573 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:16:20,574 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:17:41,012 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:17:41,013 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:17:45----------
+-----------------------------
+2017-01-02 11:17:45,834 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:17:45,966 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:17:52,434 20 MainThread audio_int   Finished 
+2017-01-02 11:17:52,435 20 MainThread audio_int   Average audio intensity is 3471.86166268
+2017-01-02 11:17:52,437 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:17:52,440 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:18:07,232 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:18:07,233 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:18:33----------
+-----------------------------
+2017-01-02 11:18:33,300 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:18:33,427 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:18:39,896 20 MainThread audio_int   Finished 
+2017-01-02 11:18:39,897 20 MainThread audio_int   Average audio intensity is 1554.43055117
+2017-01-02 11:18:39,900 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:18:39,902 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:18:51,820 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:18:51,821 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:20:18,275 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:20:18,276 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:20:51----------
+-----------------------------
+2017-01-02 11:20:51,703 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:20:51,836 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:20:58,304 20 MainThread audio_int   Finished 
+2017-01-02 11:20:58,306 20 MainThread audio_int   Average audio intensity is 1558.83195108
+2017-01-02 11:20:58,309 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:20:58,311 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:21:03,825 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:21:03,826 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:21:05,874 20 Thread-1   silence_analysys Finished
+2017-01-02 11:21:05,875 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:21:05,878 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:21:46,121 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:21:46,122 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:21:46,123 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:22:13----------
+-----------------------------
+2017-01-02 11:22:13,612 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:22:13,746 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:22:20,214 20 MainThread audio_int   Finished 
+2017-01-02 11:22:20,215 20 MainThread audio_int   Average audio intensity is 1765.09840923
+2017-01-02 11:22:20,218 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:22:20,221 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:22:29,058 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:22:29,059 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:22:31,107 20 Thread-1   silence_analysys Finished
+2017-01-02 11:22:31,108 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:22:31,111 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:23:08,231 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:23:08,232 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:23:10,792 20 Thread-1   silence_analysys Finished
+2017-01-02 11:23:10,793 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:23:10,796 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:24:06,088 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:24:06,089 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:24:07,624 20 Thread-1   silence_analysys Finished
+2017-01-02 11:24:07,625 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:24:07,628 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:29:26,422 10 MainThread listen_for_speech INTERRUPTED BY USER: Finished
+2017-01-02 11:29:26,424 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:29:26,425 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:29:52----------
+-----------------------------
+2017-01-02 11:29:52,819 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:29:52,946 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:29:59,414 20 MainThread audio_int   Finished 
+2017-01-02 11:29:59,415 20 MainThread audio_int   Average audio intensity is 1423.9740917
+2017-01-02 11:29:59,419 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:29:59,421 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:30:06,227 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:30:06,228 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:30:09,300 20 Thread-1   silence_analysys Finished
+2017-01-02 11:30:09,301 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:30:09,304 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:30:50,265 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:30:50,266 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:30:53,599 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:30:53,600 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:31:40----------
+-----------------------------
+2017-01-02 11:31:40,127 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:31:40,258 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:31:46,725 20 MainThread audio_int   Finished 
+2017-01-02 11:31:46,726 20 MainThread audio_int   Average audio intensity is 1391.16598496
+2017-01-02 11:31:46,729 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:31:46,732 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:31:52,519 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:31:52,520 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:31:55,079 20 Thread-1   silence_analysys Finished
+2017-01-02 11:31:55,080 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:31:55,084 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:32:25,728 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:32:25,729 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------11:35:48----------
+-----------------------------
+2017-01-02 11:35:48,933 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 11:35:49,074 20 MainThread audio_int  RATE == 16000
+2017-01-02 11:35:55,541 20 MainThread audio_int   Finished 
+2017-01-02 11:35:55,543 20 MainThread audio_int   Average audio intensity is 1493.56984869
+2017-01-02 11:35:55,546 20 MainThread __init__   OPENING SOCKET
+2017-01-02 11:35:55,549 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 11:36:03,395 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:36:03,396 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:36:05,956 20 Thread-1   silence_analysys Finished
+2017-01-02 11:36:05,957 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:36:05,961 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:36:49,992 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:36:49,994 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:36:52,553 20 Thread-1   silence_analysys Finished
+2017-01-02 11:36:52,554 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:36:52,557 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:37:59,625 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:37:59,627 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:38:01,162 20 Thread-1   silence_analysys Finished
+2017-01-02 11:38:01,163 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:38:01,165 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:38:30,345 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:38:30,347 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:38:31,882 20 Thread-1   silence_analysys Finished
+2017-01-02 11:38:31,883 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:38:31,885 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:40:50,378 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:40:50,380 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:40:52,171 20 Thread-1   silence_analysys Finished
+2017-01-02 11:40:52,172 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:40:52,175 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:42:17,675 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:42:17,676 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:42:19,467 20 Thread-1   silence_analysys Finished
+2017-01-02 11:42:19,468 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:42:19,471 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:42:24,587 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:42:24,588 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:42:26,123 20 Thread-1   silence_analysys Finished
+2017-01-02 11:42:26,124 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:42:26,126 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:43:20,651 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:43:20,652 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:43:22,955 20 Thread-1   silence_analysys Finished
+2017-01-02 11:43:22,956 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:43:22,959 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:43:50,860 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:43:50,861 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:43:52,651 20 Thread-1   silence_analysys Finished
+2017-01-02 11:43:52,652 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:43:52,655 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:44:18,507 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:44:18,508 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:44:20,300 20 Thread-1   silence_analysys Finished
+2017-01-02 11:44:20,301 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:44:20,303 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:44:35,404 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 11:44:35,405 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 11:44:37,196 20 Thread-1   silence_analysys Finished
+2017-01-02 11:44:37,197 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 11:44:37,199 20 Thread-1   silence_analysys Listening ...
+2017-01-02 11:45:50,729 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 11:45:50,730 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------12:13:37----------
+-----------------------------
+2017-01-02 12:13:37,300 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 12:13:37,429 20 MainThread audio_int  RATE == 16000
+2017-01-02 12:13:43,897 20 MainThread audio_int   Finished 
+2017-01-02 12:13:43,898 20 MainThread audio_int   Average audio intensity is 4061.51658557
+2017-01-02 12:13:43,901 20 MainThread __init__   OPENING SOCKET
+2017-01-02 12:13:43,904 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 12:13:53,006 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------12:13:54----------
+-----------------------------
+2017-01-02 12:13:54,816 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 12:13:54,881 20 MainThread audio_int  RATE == 16000
+2017-01-02 12:14:01,349 20 MainThread audio_int   Finished 
+2017-01-02 12:14:01,351 20 MainThread audio_int   Average audio intensity is 1223.2104749
+2017-01-02 12:14:01,354 20 MainThread __init__   OPENING SOCKET
+2017-01-02 12:14:01,356 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 12:14:02,789 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:14:02,790 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:14:04,582 20 Thread-1   silence_analysys Finished
+2017-01-02 12:14:04,582 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:14:04,584 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:14:07,398 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:14:07,400 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:14:09,190 20 Thread-1   silence_analysys Finished
+2017-01-02 12:14:09,192 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:14:09,195 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:14:32,233 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:14:32,235 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:14:34,538 20 Thread-1   silence_analysys Finished
+2017-01-02 12:14:34,539 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:14:34,541 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:16:06,188 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:16:06,190 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:16:08,492 20 Thread-1   silence_analysys Finished
+2017-01-02 12:16:08,493 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:16:08,496 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:16:34,348 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:16:34,349 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:16:36,652 20 Thread-1   silence_analysys Finished
+2017-01-02 12:16:36,654 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:16:36,657 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:19:09,741 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:19:09,742 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:19:11,277 20 Thread-1   silence_analysys Finished
+2017-01-02 12:19:11,279 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:19:11,281 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:19:27,405 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:19:27,407 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:19:28,942 20 Thread-1   silence_analysys Finished
+2017-01-02 12:19:28,943 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:19:28,945 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:19:51,214 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:19:51,215 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:19:53,006 20 Thread-1   silence_analysys Finished
+2017-01-02 12:19:53,007 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:19:53,009 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:20:45,485 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:20:45,487 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:20:47,022 20 Thread-1   silence_analysys Finished
+2017-01-02 12:20:47,023 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:20:47,025 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:20:47,278 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:20:47,279 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:20:48,814 20 Thread-1   silence_analysys Finished
+2017-01-02 12:20:48,815 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:20:48,817 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:21:27,726 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:21:27,727 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:21:30,542 20 Thread-1   silence_analysys Finished
+2017-01-02 12:21:30,544 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:21:30,547 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:21:52,814 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:21:52,815 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:21:56,143 20 Thread-1   silence_analysys Finished
+2017-01-02 12:21:56,144 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:21:56,147 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:22:19,439 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:22:19,440 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:22:21,487 20 Thread-1   silence_analysys Finished
+2017-01-02 12:22:21,488 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:22:21,491 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:22:44,015 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:22:44,016 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:22:45,551 20 Thread-1   silence_analysys Finished
+2017-01-02 12:22:45,552 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:22:45,555 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:23:12,430 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:23:12,432 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:23:15,247 20 Thread-1   silence_analysys Finished
+2017-01-02 12:23:15,248 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:23:15,251 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:23:30,095 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:23:30,096 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:23:32,143 20 Thread-1   silence_analysys Finished
+2017-01-02 12:23:32,144 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:23:32,147 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:23:47,247 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:23:47,248 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:23:49,295 20 Thread-1   silence_analysys Finished
+2017-01-02 12:23:49,296 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:23:49,297 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:24:22,319 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:24:22,321 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:24:25,647 20 Thread-1   silence_analysys Finished
+2017-01-02 12:24:25,648 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:24:25,651 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:24:47,408 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:24:47,409 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:24:49,711 20 Thread-1   silence_analysys Finished
+2017-01-02 12:24:49,712 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:24:49,715 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:26:31,600 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:26:31,601 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:26:33,905 20 Thread-1   silence_analysys Finished
+2017-01-02 12:26:33,906 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:26:33,908 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:26:46,193 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:26:46,194 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:26:49,008 20 Thread-1   silence_analysys Finished
+2017-01-02 12:26:49,010 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:26:49,013 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:27:01,041 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:27:01,042 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:27:04,625 20 Thread-1   silence_analysys Finished
+2017-01-02 12:27:04,626 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:27:04,629 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:27:20,496 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:27:20,498 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:27:23,825 20 Thread-1   silence_analysys Finished
+2017-01-02 12:27:23,826 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:27:23,829 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:27:44,048 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:27:44,050 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:27:45,841 20 Thread-1   silence_analysys Finished
+2017-01-02 12:27:45,842 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:27:45,845 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:27:56,849 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:27:57,117 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:27:58,385 20 Thread-1   silence_analysys Finished
+2017-01-02 12:27:58,387 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:27:58,389 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:28:11,511 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 12:28:11,512 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------12:38:35----------
+-----------------------------
+2017-01-02 12:38:35,718 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 12:38:35,848 20 MainThread audio_int  RATE == 16000
+2017-01-02 12:38:42,315 20 MainThread audio_int   Finished 
+2017-01-02 12:38:42,317 20 MainThread audio_int   Average audio intensity is 1510.82113401
+2017-01-02 12:38:42,320 20 MainThread __init__   OPENING SOCKET
+2017-01-02 12:38:42,323 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 12:38:49,915 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:38:49,917 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:38:51,452 20 Thread-1   silence_analysys Finished
+2017-01-02 12:38:51,453 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:38:51,456 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:42:05,240 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 12:42:05,242 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------12:42:22----------
+-----------------------------
+2017-01-02 12:42:22,291 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 12:42:22,431 20 MainThread audio_int  RATE == 16000
+2017-01-02 12:42:28,900 20 MainThread audio_int   Finished 
+2017-01-02 12:42:28,901 20 MainThread audio_int   Average audio intensity is 1706.6614089
+2017-01-02 12:42:28,905 20 MainThread __init__   OPENING SOCKET
+2017-01-02 12:42:28,908 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 12:42:33,926 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:42:33,934 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:42:35,463 20 Thread-1   silence_analysys Finished
+2017-01-02 12:42:35,464 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:42:35,468 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:42:52,105 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:42:52,106 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:42:54,153 20 Thread-1   silence_analysys Finished
+2017-01-02 12:42:54,154 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:42:54,157 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:42:58,033 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 12:42:58,034 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------12:42:59----------
+-----------------------------
+2017-01-02 12:42:59,532 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 12:42:59,597 20 MainThread audio_int  RATE == 16000
+2017-01-02 12:43:06,064 20 MainThread audio_int   Finished 
+2017-01-02 12:43:06,066 20 MainThread audio_int   Average audio intensity is 970.188739423
+2017-01-02 12:43:06,069 20 MainThread __init__   OPENING SOCKET
+2017-01-02 12:43:06,071 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 12:43:06,476 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:43:06,476 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:43:08,012 20 Thread-1   silence_analysys Finished
+2017-01-02 12:43:08,012 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:43:08,014 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:43:08,524 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:43:08,524 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:43:11,084 20 Thread-1   silence_analysys Finished
+2017-01-02 12:43:11,282 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:43:11,285 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:43:13,900 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:43:13,901 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:43:15,693 20 Thread-1   silence_analysys Finished
+2017-01-02 12:43:15,694 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:43:15,697 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:43:24,910 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:43:24,911 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:43:26,702 20 Thread-1   silence_analysys Finished
+2017-01-02 12:43:26,703 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:43:26,706 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:43:41,296 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:43:41,297 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:43:44,369 20 Thread-1   silence_analysys Finished
+2017-01-02 12:43:44,370 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:43:44,373 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:43:47,441 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:43:47,442 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:43:49,233 20 Thread-1   silence_analysys Finished
+2017-01-02 12:43:49,234 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:43:49,237 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:44:14,322 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:44:14,324 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:44:16,627 20 Thread-1   silence_analysys Finished
+2017-01-02 12:44:16,628 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:44:16,631 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:44:29,938 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:44:29,939 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:44:32,499 20 Thread-1   silence_analysys Finished
+2017-01-02 12:44:32,500 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:44:32,503 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:45:19,091 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:45:19,092 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:45:20,627 20 Thread-1   silence_analysys Finished
+2017-01-02 12:45:20,628 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:45:20,631 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:45:33,939 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:45:33,940 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:45:35,731 20 Thread-1   silence_analysys Finished
+2017-01-02 12:45:35,732 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:45:35,735 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:45:55,699 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:45:55,701 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:45:57,747 20 Thread-1   silence_analysys Finished
+2017-01-02 12:45:57,748 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:45:57,751 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:46:07,731 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:46:07,732 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:46:10,291 20 Thread-1   silence_analysys Finished
+2017-01-02 12:46:10,292 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:46:10,295 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:46:21,043 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:46:21,044 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:46:24,627 20 Thread-1   silence_analysys Finished
+2017-01-02 12:46:24,628 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:46:24,632 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:46:39,731 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:46:39,732 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:46:42,548 20 Thread-1   silence_analysys Finished
+2017-01-02 12:46:42,549 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:46:42,552 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:47:00,212 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:47:00,213 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:47:03,795 20 Thread-1   silence_analysys Finished
+2017-01-02 12:47:03,796 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:47:03,799 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:47:17,364 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:47:17,365 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:47:20,179 20 Thread-1   silence_analysys Finished
+2017-01-02 12:47:20,180 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:47:20,184 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:47:42,964 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:47:42,965 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:47:46,548 20 Thread-1   silence_analysys Finished
+2017-01-02 12:47:46,549 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:47:46,552 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:48:00,372 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:48:00,373 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:48:01,908 20 Thread-1   silence_analysys Finished
+2017-01-02 12:48:01,909 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:48:01,911 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:48:11,380 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:48:11,381 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:48:14,452 20 Thread-1   silence_analysys Finished
+2017-01-02 12:48:14,454 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:48:14,457 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:48:24,948 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:48:24,949 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:48:26,740 20 Thread-1   silence_analysys Finished
+2017-01-02 12:48:26,741 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:48:26,744 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:48:39,285 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:48:39,286 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:48:41,333 20 Thread-1   silence_analysys Finished
+2017-01-02 12:48:41,334 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:48:41,337 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:49:07,647 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 12:49:07,649 20 MainThread listen_for_speech * Done recording
+-----------------------------
+----------12:53:59----------
+-----------------------------
+2017-01-02 12:53:59,534 20 MainThread audio_int  Getting intensity values from mic.
+2017-01-02 12:53:59,666 20 MainThread audio_int  RATE == 16000
+2017-01-02 12:54:06,134 20 MainThread audio_int   Finished 
+2017-01-02 12:54:06,135 20 MainThread audio_int   Average audio intensity is 1777.77858178
+2017-01-02 12:54:06,138 20 MainThread __init__   OPENING SOCKET
+2017-01-02 12:54:06,140 20 Thread-1   silence_analysys * Listening mic. 
+2017-01-02 12:54:10,896 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:54:10,897 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:54:12,689 20 Thread-1   silence_analysys Finished
+2017-01-02 12:54:12,690 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:54:12,692 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:54:24,722 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:54:24,723 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:54:26,258 20 Thread-1   silence_analysys Finished
+2017-01-02 12:54:26,260 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:54:26,262 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:54:43,669 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:54:43,670 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:54:45,461 20 Thread-1   silence_analysys Finished
+2017-01-02 12:54:45,462 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:54:45,465 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:55:19,767 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:55:19,768 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:55:21,559 20 Thread-1   silence_analysys Finished
+2017-01-02 12:55:21,560 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:55:21,562 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:55:30,775 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:55:30,776 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:55:32,311 20 Thread-1   silence_analysys Finished
+2017-01-02 12:55:32,312 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:55:32,315 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:55:41,783 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:55:41,784 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:55:44,344 20 Thread-1   silence_analysys Finished
+2017-01-02 12:55:44,345 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:55:44,348 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:56:02,263 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:56:02,264 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:56:03,799 20 Thread-1   silence_analysys Finished
+2017-01-02 12:56:03,800 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:56:03,803 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:56:15,063 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:56:15,065 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:56:18,391 20 Thread-1   silence_analysys Finished
+2017-01-02 12:56:18,392 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:56:18,395 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:56:32,216 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:56:32,217 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:56:34,007 20 Thread-1   silence_analysys Finished
+2017-01-02 12:56:34,008 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:56:34,011 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:56:45,271 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:56:45,272 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:56:47,832 20 Thread-1   silence_analysys Finished
+2017-01-02 12:56:47,833 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:56:47,836 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:56:58,839 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:56:58,840 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:57:02,167 20 Thread-1   silence_analysys Finished
+2017-01-02 12:57:02,169 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:57:02,172 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:57:23,672 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:57:23,673 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:57:26,744 20 Thread-1   silence_analysys Finished
+2017-01-02 12:57:26,745 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:57:26,748 20 Thread-1   silence_analysys Listening ...
+2017-01-02 12:57:41,591 20 Thread-1   silence_analysys Starting record of phrase
+2017-01-02 12:57:41,593 20 Thread-1   __init__   OPENING SOCKET
+2017-01-02 12:57:43,384 20 Thread-1   silence_analysys Finished
+2017-01-02 12:57:43,385 20 Thread-1   destroy    CLOSING SOCKET
+2017-01-02 12:57:43,388 20 Thread-1   silence_analysys Listening ...
+2017-01-02 13:04:10,388 20 MainThread destroy    CLOSING SOCKET
+2017-01-02 13:04:10,389 20 MainThread listen_for_speech * Done recording

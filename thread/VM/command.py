@@ -1,6 +1,6 @@
 class Command():
 
-	options = ('light_number', 'on_off', 'color', 'brightness_number')
+	options = ('light_number', 'on_off','color', 'brightness_number')
 
 	def __init__(self, command, MAX_LAMPS = 3):
 		self.command = command
@@ -46,32 +46,25 @@ class Command():
 		if 'intent' in entities.keys():
 			if entities['intent'][0]['value'] == 'change_lamp_state':
 				self.valid = True
-			
-			for opt in self.options:
-				if opt in entities.keys():
-					self.cmd_var[opt] = ''
-					for n in entities[opt]:
-						self.cmd_var[opt] += str(n['value'])+','
+
+		for opt in self.options:
+			if opt in entities.keys():
+				self.cmd_var[opt] = ''
+				for n in entities[opt]:
+					self.cmd_var[opt] += str(n['value'])+','
 
 
 	def __validate_command(self):
-
-		#Check if all lights are in range
 		lights = (self.cmd_var['light_number'][:-1]).split(',')
 		n_lights = []
 		for l in lights:
 			if l == 'all':
 				n_lights = [l]
 				break
-			elif (0 <= int(l) <= self.MAX_LAMPS):
+			elif ( 0 <= int(l) <= self.MAX_LAMPS):
 				n_lights.append(l)
 		self.cmd_var['light_number'] = ','.join(n_lights) + ','
 
-		#Check if command is for 'on' or 'off'
-		if self.cmd_var['on_off'][:-1] not in ('on','off'):
-			self.cmd_var['on_off'] = ''
-
-		#Check if color is valid
 		if not (self.cmd_var['color'][:-1] in ('red', 'blue', 'white', 'yellow', 'green', 'pink')):
 			self.cmd_var['color'] = ''
 

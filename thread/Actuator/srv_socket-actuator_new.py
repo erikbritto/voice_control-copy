@@ -58,15 +58,15 @@ class Actuator():
 		if c[1] == 'all':
 			lamp = list(range(1,4))
 		else:
-			lamp = c[2].split(',')
+			lamp = c[1].split(',')
 		
 		#State
 		if c[2]:
-			command_dict['on'] = True if c[1] == 'on' else False
+			command_dict['on'] = True if c[2] == 'on' else False
 		
 		#Color
 		if c[3]:
-			command_dict['hue'] = color[c[3]]
+			command_dict['hue'] = self.color[c[3]]
 			command_dict['sat'] = 254
 		
 		#Brightness

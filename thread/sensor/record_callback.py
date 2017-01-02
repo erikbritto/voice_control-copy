@@ -13,6 +13,9 @@ from collections import deque
 import math
 import time
 
+from threading import Thread
+from Queue import Queue
+
 class AudioUtils():
 
 	"""
@@ -54,37 +57,55 @@ class AudioUtils():
 		self.THRESHOLD = THRESHOLD
 		self.SILENCE_LIMIT = SILENCE_LIMIT
 		self.PREV_AUDIO = PREV_AUDIO
+		self.audioQueue = Queue()
+
+
+	def silence_analysys(self):
+			self.log.info( "* Listening mic. ")
+			cur_data = ''  # current chunk  of audio data
+			rel = self.RATE / self.CHUNK
+			slid_win = deque(maxlen = self.SILENCE_LIMIT * rel)
+			#Prepend audio from self.PREV_AUDIO seconds before noise was detected
+			prev_audio = deque(maxlen = self.PREV_AUDIO * rel) 
+			started = False
+			audio2send = []
+			while True:
+				cur_data = self.audioQueue.get()
+				if cur_data == None:
+					break
+
+				slid_win.append(math.sqrt(abs(audioop.avg(cur_data, 4))))
+				#print slid_win[-1]
+				if(sum([x > self.THRESHOLD for x in slid_win]) > 0):
+					if(not started):
+						self.log.info("Starting record of phrase")
+						#VM's IP and port
+						self.s = connection.Client('192.168.0.84', 57000)
+						self.s.connect()
+						started = True
+						self.s.send_message(''.join(prev_audio))
+						audio2send = list(prev_audio)
+					self.s.send_message(cur_data)
+					audio2send.append(cur_data)
+				elif (started is True):
+					self.log.info("Finished")
+					self.s.destroy()
+
+					self.save_speech(audio2send)
+					audio2send = []
+
+					# Reset all
+					started = False
+					slid_win = deque(maxlen = self.SILENCE_LIMIT * rel)
+					prev_audio = deque(maxlen=0.5 * rel) 
+
+					self.log.info("Listening ...")
+				else:
+					prev_audio.append(cur_data)
 
 
 	def callback(self,in_data, frame_count, time_info, status):
-		self.slid_win.append(math.sqrt(abs(audioop.avg(in_data, 4))))
-		#print slid_win[-1]
-		if(sum([x > self.THRESHOLD for x in self.slid_win]) > 0):
-			if(not self.started):
-				self.log.info("Starting record of phrase")
-				#VM's IP and port
-				self.s = connection.Client('192.168.0.84', 57000)
-				self.s.connect()
-				self.started = True
-				self.s.send_message(''.join(self.prev_audio))
-			self.s.send_message(in_data)
-			self.audio2send.append(in_data)
-		elif (self.started is True):
-			self.log.info("Finished")
-			self.s.destroy()
-
-			self.save_speech(list(self.prev_audio) + self.audio2send)
-			self.audio2send = []
-
-			# Reset all
-			self.started = False
-			self.slid_win = deque(maxlen = self.SILENCE_LIMIT * self.rel)
-			self.prev_audio = deque(maxlen=0.5 * self.rel) 
-
-			self.log.info("Listening ...")
-		else:
-			self.prev_audio.append(in_data)
-
+		self.audioQueue.put(in_data)
 		return (in_data, pyaudio.paContinue)
 
 
@@ -104,13 +125,9 @@ class AudioUtils():
 
 		#Open stream
 		self.s = connection.Connection()
-		self.log.info( "* Listening mic. ")
-		self.rel = self.RATE / self.CHUNK
-		self.slid_win = deque(maxlen = self.SILENCE_LIMIT * self.rel)
-		#Prepend audio from self.PREV_AUDIO seconds before noise was detected
-		self.prev_audio = deque(maxlen = self.PREV_AUDIO * self.rel)
-		self.started = False
-		self.audio2send = []
+		
+		silence_thread = Thread(target=self.silence_analysys)
+		silence_thread.start()
 
 		p = pyaudio.PyAudio()
 
@@ -132,6 +149,7 @@ class AudioUtils():
 		except Exception as e:
 			self.log.debug('ERROR: ' + str(e))
 		finally:
+			self.audioQueue.put(None)
 			self.s.destroy()
 			self.log.info("* Done recording")
 
@@ -163,7 +181,7 @@ class AudioUtils():
 		return filename + '.wav'
 
 
-	def audio_int(self, num_samples = 25, offset = 1000):
+	def audio_int(self, num_samples = 25, offset = 800):
 		""" Gets average audio intensity of your mic sound. You can use it to get
 			average intensities while you're talking and/or silent. The average
 			is the avg of the 20% largest intensities recorded.

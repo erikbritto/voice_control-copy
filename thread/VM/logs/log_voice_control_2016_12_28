@@ -1,0 +1,981 @@
+-----------------------------
+----------13:11:12----------
+-----------------------------
+2016-12-28 13:11:12,481 20 MainThread __init__   OPENING SOCKET
+2016-12-28 13:11:12,481 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:11:12,481 20 MainThread accept     Opening connection
+2016-12-28 13:12:36,904 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 13:12:36,904 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------13:12:44----------
+-----------------------------
+2016-12-28 13:12:44,304 20 MainThread __init__   OPENING SOCKET
+2016-12-28 13:12:44,304 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:12:44,304 20 MainThread accept     Opening connection
+2016-12-28 13:13:07,038 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:13:07,038 20 MainThread accept     Opening connection
+2016-12-28 13:13:09,169 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 13:13:21,438 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:13:21,439 20 MainThread accept     Opening connection
+2016-12-28 13:13:24,143 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 13:13:33,163 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 13:13:47,788 20 Thread-1   speechToText Command: 
+
+light|toggle|all||/
+2016-12-28 13:13:51,555 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:13:51,556 20 MainThread accept     Opening connection
+2016-12-28 13:13:53,396 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 13:13:58,730 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:13:58,731 20 MainThread accept     Opening connection
+2016-12-28 13:14:00,623 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 13:14:02,895 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 13:14:02,896 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------13:27:30----------
+-----------------------------
+2016-12-28 13:27:30,824 20 MainThread __init__   OPENING SOCKET
+2016-12-28 13:27:30,825 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:27:30,825 20 MainThread accept     Opening connection
+2016-12-28 13:27:36,941 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 13:27:36,941 20 MainThread accept     Opening connection
+2016-12-28 13:27:38,826 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 13:27:50,075 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 13:35:36,242 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 13:35:36,243 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------14:20:50----------
+-----------------------------
+2016-12-28 14:20:50,336 20 MainThread __init__   OPENING SOCKET
+2016-12-28 14:20:50,337 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:20:50,337 20 MainThread accept     Opening connection
+2016-12-28 14:21:06,957 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:21:06,958 20 MainThread accept     Opening connection
+2016-12-28 14:21:09,405 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 14:21:12,991 20 Thread-5   bing       Bing (running time 3.57892990112) :lawn
+2016-12-28 14:21:15,303 20 Thread-3   wit        Wit.ai (running time 5.89686107635) :one
+2016-12-28 14:21:15,813 20 Thread-4   google     Google (running time 6.40245890617) :Nissan
+2016-12-28 14:21:37,438 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:21:37,439 20 MainThread accept     Opening connection
+2016-12-28 14:21:40,164 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 14:21:41,873 20 Thread-8   google     Google (running time 1.70490098) :Lipscomb
+2016-12-28 14:21:44,086 20 Thread-7   wit        Wit.ai (running time 3.92041802406) :what's wrong
+2016-12-28 14:21:44,721 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:21:44,721 20 MainThread accept     Opening connection
+2016-12-28 14:21:46,818 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 14:21:48,166 20 Thread-9   bing       Bing (running time 7.99178004265) :lights on
+2016-12-28 14:21:49,727 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:21:54,791 20 Thread-11  wit        Wit.ai (running time 5.06219387054) :oh
+2016-12-28 14:22:04,629 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:22:04,630 20 MainThread accept     Opening connection
+2016-12-28 14:22:07,152 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 14:22:08,239 20 Thread-16  google     Google (running time 1.08319091797) :lights on
+2016-12-28 14:22:11,953 20 Thread-17  bing       Bing (running time 4.7939260006) :white swan
+2016-12-28 14:22:12,014 20 Thread-15  wit        Wit.ai (running time 4.86056804657) :what's going
+2016-12-28 14:22:12,980 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:22:43,303 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:22:43,303 20 MainThread accept     Opening connection
+2016-12-28 14:22:45,524 20 Thread-18  disconnect CLOSING CONNECTION
+2016-12-28 14:22:47,389 20 Thread-20  google     Google (running time 1.86116814613) :Robin
+2016-12-28 14:22:49,639 20 Thread-21  bing       Bing (running time 4.11095786095) :why don't
+2016-12-28 14:22:52,204 20 Thread-19  wit        Wit.ai (running time 6.67781305313) :when
+2016-12-28 14:23:50,385 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 14:23:50,385 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------14:24:26----------
+-----------------------------
+2016-12-28 14:24:26,947 20 MainThread __init__   OPENING SOCKET
+2016-12-28 14:24:26,948 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:24:26,948 20 MainThread accept     Opening connection
+2016-12-28 14:26:15,962 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 14:26:15,962 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------14:26:26----------
+-----------------------------
+2016-12-28 14:26:26,848 20 MainThread __init__   OPENING SOCKET
+2016-12-28 14:26:26,849 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:26:26,849 20 MainThread accept     Opening connection
+2016-12-28 14:27:23,044 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:27:23,044 20 MainThread accept     Opening connection
+2016-12-28 14:27:24,968 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 14:27:26,218 20 Thread-4   google     Google (running time 1.24352502823) :Nissan
+2016-12-28 14:27:30,892 20 Thread-3   wit        Wit.ai (running time 5.92209482193) :what's
+2016-12-28 14:27:31,670 20 Thread-5   bing       Bing (running time 6.69203996658) :left on
+2016-12-28 14:27:52,362 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 14:27:52,362 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------14:29:30----------
+-----------------------------
+2016-12-28 14:29:30,640 20 MainThread __init__   OPENING SOCKET
+2016-12-28 14:29:30,640 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:29:30,640 20 MainThread accept     Opening connection
+2016-12-28 14:29:37,771 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:29:37,771 20 MainThread accept     Opening connection
+2016-12-28 14:29:40,572 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 14:29:42,107 20 Thread-4   google     Google (running time 1.52728104591) :lights on
+2016-12-28 14:29:44,489 20 Thread-3   wit        Wit.ai (running time 3.91463518143) :lights on
+2016-12-28 14:29:44,637 20 Thread-5   bing       Bing (running time 4.05652308464) :lights on
+2016-12-28 14:29:45,984 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:31:16,806 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:31:16,806 20 MainThread accept     Opening connection
+2016-12-28 14:31:18,615 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 14:31:19,656 20 Thread-8   google     Google (running time 1.03744697571) :lights on
+2016-12-28 14:31:21,272 20 Thread-7   wit        Wit.ai (running time 2.65548682213) :lights on
+2016-12-28 14:31:24,757 20 Thread-9   bing       Bing (running time 6.13453006744) :lights on
+2016-12-28 14:31:26,084 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:31:49,340 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 14:31:49,340 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------14:33:30----------
+-----------------------------
+2016-12-28 14:33:30,777 20 MainThread __init__   OPENING SOCKET
+2016-12-28 14:33:30,778 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:33:30,778 20 MainThread accept     Opening connection
+2016-12-28 14:33:44,348 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:33:44,348 20 MainThread accept     Opening connection
+2016-12-28 14:33:46,961 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 14:33:48,121 20 Thread-4   google     Google (running time 1.15370702744) :UConn
+2016-12-28 14:33:52,255 20 Thread-3   wit        Wit.ai (running time 5.2928879261) :question one
+2016-12-28 14:33:55,268 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:34:12,117 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:34:12,117 20 MainThread accept     Opening connection
+2016-12-28 14:34:14,843 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 14:34:17,173 20 Thread-8   google     Google (running time 2.32647895813) :Exxon
+2016-12-28 14:34:20,002 20 Thread-9   bing       Bing (running time 5.15400099754) :what's on
+2016-12-28 14:34:24,251 20 Thread-7   wit        Wit.ai (running time 9.40638899803) :you are a fucking
+2016-12-28 14:34:52,143 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:34:52,143 20 MainThread accept     Opening connection
+2016-12-28 14:34:54,517 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 14:34:56,129 20 Thread-12  google     Google (running time 1.60886693001) :respond
+2016-12-28 14:34:59,243 20 Thread-11  wit        Wit.ai (running time 4.72481012344) :when the
+2016-12-28 14:35:00,803 20 Thread-13  bing       Bing (running time 6.28021001816) :let's go in
+2016-12-28 14:35:27,866 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:35:27,867 20 MainThread accept     Opening connection
+2016-12-28 14:35:29,900 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 14:35:31,113 20 Thread-16  google     Google (running time 1.21010112762) :song
+2016-12-28 14:35:33,628 20 Thread-15  wit        Wit.ai (running time 3.726583004) :
+2016-12-28 14:35:35,124 20 Thread-17  bing       Bing (running time 5.21723103523) :long
+2016-12-28 14:36:48,117 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:36:48,118 20 MainThread accept     Opening connection
+2016-12-28 14:36:49,515 20 Thread-18  disconnect CLOSING CONNECTION
+2016-12-28 14:36:50,375 20 Thread-20  google     Google (running time 0.856781005859) :lights on
+2016-12-28 14:36:52,162 20 Thread-19  wit        Wit.ai (running time 2.64601206779) :lights on
+2016-12-28 14:36:53,415 20 Thread-21  bing       Bing (running time 3.89327001572) :lights on
+2016-12-28 14:36:54,722 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:37:26,672 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:37:26,673 20 MainThread accept     Opening connection
+2016-12-28 14:37:28,135 20 Thread-22  disconnect CLOSING CONNECTION
+2016-12-28 14:37:29,243 20 Thread-24  google     Google (running time 1.10478496552) :lights on
+2016-12-28 14:37:31,324 20 Thread-23  wit        Wit.ai (running time 3.18737411499) :lights on
+2016-12-28 14:37:35,752 20 Thread-25  bing       Bing (running time 7.60333895683) :lights on
+2016-12-28 14:37:37,031 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:38:41,412 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:38:41,413 20 MainThread accept     Opening connection
+2016-12-28 14:38:42,862 20 Thread-26  disconnect CLOSING CONNECTION
+2016-12-28 14:38:43,580 20 Thread-28  google     Google (running time 0.713927984238) :lights on
+2016-12-28 14:38:45,938 20 Thread-27  wit        Wit.ai (running time 3.07373309135) :lights on
+2016-12-28 14:38:46,007 20 Thread-29  bing       Bing (running time 3.13646292686) :lights on
+2016-12-28 14:38:47,431 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:39:22,411 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:39:22,411 20 MainThread accept     Opening connection
+2016-12-28 14:39:23,855 20 Thread-30  disconnect CLOSING CONNECTION
+2016-12-28 14:39:25,362 20 Thread-32  google     Google (running time 1.5033531189) :turn on lights 1 and 3
+2016-12-28 14:39:27,835 20 Thread-31  wit        Wit.ai (running time 3.97841501236) :turn on lights one and three the
+2016-12-28 14:39:30,361 20 Thread-33  bing       Bing (running time 6.50191497803) :turn on lights on in three hours
+2016-12-28 14:40:24,298 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:40:24,298 20 MainThread accept     Opening connection
+2016-12-28 14:40:28,327 20 Thread-34  disconnect CLOSING CONNECTION
+2016-12-28 14:40:37,934 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 14:40:37,934 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------14:41:46----------
+-----------------------------
+2016-12-28 14:41:46,159 20 MainThread __init__   OPENING SOCKET
+2016-12-28 14:41:46,159 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:41:46,160 20 MainThread accept     Opening connection
+2016-12-28 14:42:10,745 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:42:10,746 20 MainThread accept     Opening connection
+2016-12-28 14:42:12,221 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 14:42:13,175 20 Thread-4   google     Google (running time 0.94642496109): turn on lights 1 and 3
+2016-12-28 14:42:15,476 20 Thread-3   wit        Wit.ai (running time 3.25349712372): turn on lights one in three
+2016-12-28 14:42:16,680 20 Thread-5   bing       Bing (running time 4.4444630146): turn on lights one in three
+2016-12-28 14:42:17,807 20 Thread-1   speechToText Command: 
+
+light|on|1,3||/
+2016-12-28 14:51:06,474 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:51:06,474 20 MainThread accept     Opening connection
+2016-12-28 14:51:09,942 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 14:51:17,222 20 Thread-7   wit        Wit.ai (running time 7.27798604965): lets run three birthday is in the
+2016-12-28 14:51:18,602 20 Thread-8   google     Google (running time 8.65607690811): 4 - 1 + 3 - 80
+2016-12-28 14:51:25,338 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:51:25,338 20 MainThread accept     Opening connection
+2016-12-28 14:51:25,399 20 Thread-9   bing       Bing (running time 15.4427719116): tell my name is one in three seconds eighty
+2016-12-28 14:51:26,336 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:51:26,847 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 14:51:29,942 20 Thread-11  wit        Wit.ai (running time 3.0939309597): 
+2016-12-28 14:52:07,386 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 14:52:07,386 20 MainThread accept     Opening connection
+2016-12-28 14:52:11,291 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 14:52:13,848 20 Thread-16  google     Google (running time 2.55335497856): turn on lights 1 & 3 with brightness 80
+2016-12-28 14:52:17,245 20 Thread-17  bing       Bing (running time 5.944272995): turn on lights one in three with brightness eighty
+2016-12-28 14:52:19,806 20 Thread-15  wit        Wit.ai (running time 8.51345896721): turn on lights when i leave this is it
+2016-12-28 14:52:19,807 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 14:52:38,296 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 14:52:38,296 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:24:16----------
+-----------------------------
+2016-12-28 15:24:16,002 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:24:16,003 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:24:16,003 20 MainThread accept     Opening connection
+2016-12-28 15:24:45,620 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:24:45,620 20 MainThread accept     Opening connection
+2016-12-28 15:24:49,629 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:24:51,195 20 Thread-4   google     Google (running time 1.55893802643): turn on lights 1 & 3 with brightness 80
+2016-12-28 15:24:54,413 20 Thread-3   wit        Wit.ai (running time 4.78227496147): turn on lights one inch weave brightness ad
+2016-12-28 15:24:58,459 20 Thread-5   bing       Bing (running time 8.82129311562): turn on lights one and three with brightness eighty
+2016-12-28 15:25:17,904 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 15:25:17,904 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:25:55----------
+-----------------------------
+2016-12-28 15:25:55,115 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:25:55,115 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:25:55,115 20 MainThread accept     Opening connection
+2016-12-28 15:26:17,506 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:26:17,506 20 MainThread accept     Opening connection
+2016-12-28 15:26:21,120 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:26:22,908 20 Thread-4   google     Google (running time 1.77733683586): turn on lights 1 & 3 with practice 80
+2016-12-28 15:26:27,419 20 Thread-5   bing       Bing (running time 6.28486394882): turn on lights one in three with practice eighty
+2016-12-28 15:26:27,787 20 Thread-3   wit        Wit.ai (running time 6.66098690033): turn on lights my previous back is eighty
+2016-12-28 15:26:28,241 20 Thread-1   speechToText Wit.ai: ['light', 'on', 'all', '', '']
+2016-12-28 15:26:28,243 20 Thread-1   speechToText Google: ['light', 'on', 'all', '', '']
+2016-12-28 15:26:28,244 20 Thread-1   speechToText Bing: ['light', 'on', 'all', '', '']
+2016-12-28 15:26:28,244 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 15:26:39,169 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:26:39,169 20 MainThread accept     Opening connection
+2016-12-28 15:26:43,651 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 15:26:45,690 20 Thread-8   google     Google (running time 2.03622412682): turn on lights 1 & 3 with brightness 80
+2016-12-28 15:26:47,581 20 Thread-9   bing       Bing (running time 3.92232489586): turn on lights one increase brightness eighty
+2016-12-28 15:26:52,449 20 Thread-7   wit        Wit.ai (running time 8.79759097099): turn on lights one with brightness in the
+2016-12-28 15:26:52,450 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '']
+2016-12-28 15:26:52,451 20 Thread-1   speechToText Google: ['light', 'on', 'all', '', '']
+2016-12-28 15:26:52,451 20 Thread-1   speechToText Bing: ['light', 'on', 'all', '', '']
+2016-12-28 15:26:52,452 20 Thread-1   speechToText Command: 
+
+light|on|1||/
+2016-12-28 15:26:59,097 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 15:26:59,098 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:29:03----------
+-----------------------------
+2016-12-28 15:29:03,768 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:29:03,768 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:29:03,768 20 MainThread accept     Opening connection
+2016-12-28 15:29:24,115 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:29:24,116 20 MainThread accept     Opening connection
+2016-12-28 15:29:27,170 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:29:28,806 20 Thread-4   google     Google (running time 1.63113594055): turn on lights 1 & 3 with brightness 80
+2016-12-28 15:29:32,009 20 Thread-5   bing       Bing (running time 4.82801795006): turn on lights one in three with brightness eighty
+2016-12-28 15:29:32,953 20 Thread-3   wit        Wit.ai (running time 5.78121399879): turn on lights one to even write this in
+2016-12-28 15:29:33,469 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '']
+2016-12-28 15:29:33,469 20 Thread-1   speechToText Google: ['light', 'on', '1,3', '', '80']
+2016-12-28 15:29:33,469 20 Thread-1   speechToText Bing: ['light', 'on', '1,3', '', '80']
+2016-12-28 15:29:33,469 20 Thread-1   speechToText Command: 
+
+light|on|1||80/
+2016-12-28 15:31:52,887 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 15:31:52,888 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:31:56----------
+-----------------------------
+2016-12-28 15:31:56,076 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:31:56,077 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:31:56,077 20 MainThread accept     Opening connection
+2016-12-28 15:32:34,348 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:32:34,348 20 MainThread accept     Opening connection
+2016-12-28 15:32:37,791 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:32:39,742 20 Thread-4   google     Google (running time 1.94596600533): turn on lights 1 and 3 with breakfast 80
+2016-12-28 15:32:42,131 20 Thread-3   wit        Wit.ai (running time 4.3388710022): turn on light one and three breakfast eighty
+2016-12-28 15:32:48,469 20 Thread-5   bing       Bing (running time 10.6675269604): turn on lights one in three with breakfast eighty
+2016-12-28 15:32:49,293 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1,3', '', '']
+2016-12-28 15:32:49,294 20 Thread-1   speechToText Google: ['light', 'on', '1,3', '', '']
+2016-12-28 15:32:49,294 20 Thread-1   speechToText Bing: ['light', 'on', '1,3', '', '']
+2016-12-28 15:32:49,294 20 Thread-1   speechToText Command: 
+
+light|on|1,3||/
+2016-12-28 15:33:06,493 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:33:06,494 20 MainThread accept     Opening connection
+2016-12-28 15:33:10,308 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 15:33:12,702 20 Thread-8   google     Google (running time 2.39168787003): turn on lights 1 + 2 - 80
+2016-12-28 15:33:14,969 20 Thread-9   bing       Bing (running time 4.65482282639): turn on lights one two brightness eighty
+2016-12-28 15:33:16,626 20 Thread-7   wit        Wit.ai (running time 6.31677007675): turn on lights one two brightness eighty
+2016-12-28 15:33:16,627 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '80']
+2016-12-28 15:33:16,627 20 Thread-1   speechToText Google: ['light', 'on', '1', '', '']
+2016-12-28 15:33:16,628 20 Thread-1   speechToText Bing: ['light', 'on', '1', '', '80']
+2016-12-28 15:33:16,628 20 Thread-1   speechToText Command: 
+
+light|on|1||80/
+2016-12-28 15:36:14,264 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 15:36:14,264 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:38:16----------
+-----------------------------
+2016-12-28 15:38:16,000 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:38:16,001 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:38:16,001 20 MainThread accept     Opening connection
+2016-12-28 15:38:29,094 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:38:29,094 20 MainThread accept     Opening connection
+2016-12-28 15:38:33,080 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:38:35,447 20 Thread-4   google     Google (running time 2.36220407486): turn on lights 1 & 3 with brightness 80
+2016-12-28 15:38:38,393 20 Thread-3   wit        Wit.ai (running time 5.31130719185): turn on lights one in three weeks back sat
+2016-12-28 15:38:44,169 20 Thread-5   bing       Bing (running time 11.0837697983): turn on lights one and three with magnus eighty
+2016-12-28 15:38:45,288 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1,3', '', '']
+2016-12-28 15:38:45,289 20 Thread-1   speechToText Google: ['light', 'on', '1,3', '', '80']
+2016-12-28 15:38:45,289 20 Thread-1   speechToText Bing: ['light', 'on', '1,3', '', '']
+2016-12-28 15:38:45,290 20 Thread-1   speechToText Command: 
+
+light|on|1,3||80/
+2016-12-28 15:38:53,602 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:38:53,603 20 MainThread accept     Opening connection
+2016-12-28 15:38:57,917 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 15:38:59,487 20 Thread-8   google     Google (running time 1.56737804413): 1 lights 1 & 2 of brightness 5
+2016-12-28 15:39:02,507 20 Thread-7   wit        Wit.ai (running time 4.58917689323): turn lights one inch of brightness five
+2016-12-28 15:39:03,375 20 Thread-9   bing       Bing (running time 5.45431900024): turn lights one in two brightness five
+2016-12-28 15:39:04,964 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '5']
+2016-12-28 15:39:04,964 20 Thread-1   speechToText Google: ['light', 'off', '1,2', '', '5']
+2016-12-28 15:39:04,964 20 Thread-1   speechToText Bing: ['light', 'on', '1,2', '', '5']
+2016-12-28 15:39:04,964 20 Thread-1   speechToText Command: 
+
+light|on|1,2||5/
+2016-12-28 15:39:11,280 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:39:11,281 20 MainThread accept     Opening connection
+2016-12-28 15:39:15,326 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 15:39:17,996 20 Thread-12  google     Google (running time 2.6669819355): turn on lights 2003 with color blue
+2016-12-28 15:39:24,724 20 Thread-11  wit        Wit.ai (running time 9.3963830471): turn on lights one with colored
+2016-12-28 15:39:27,213 20 Thread-13  bing       Bing (running time 11.880936861): turn on lights one three with color blue
+2016-12-28 15:39:28,231 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '']
+2016-12-28 15:39:28,231 20 Thread-1   speechToText Google: ['light', 'on', '', 'blue', '']
+2016-12-28 15:39:28,231 20 Thread-1   speechToText Bing: ['light', 'on', 'all', 'blue', '']
+2016-12-28 15:39:28,231 20 Thread-1   speechToText Command: 
+
+light|on|1|blue|/
+2016-12-28 15:44:25,663 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 15:44:25,663 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:44:29----------
+-----------------------------
+2016-12-28 15:44:29,620 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:44:29,621 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:44:29,621 20 MainThread accept     Opening connection
+2016-12-28 15:44:43,230 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:44:43,230 20 MainThread accept     Opening connection
+2016-12-28 15:44:46,670 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:44:48,445 20 Thread-4   google     Google (running time 1.7694067955): turn on lights 1 and 2 with brightness 80
+2016-12-28 15:44:50,736 20 Thread-3   wit        Wit.ai (running time 4.06363201141): to turn on lights one tooth brightness eighty
+2016-12-28 15:44:52,258 20 Thread-5   bing       Bing (running time 5.57728409767): to turn on lights one and two brightness eighty
+2016-12-28 15:44:53,796 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '80']
+2016-12-28 15:44:53,797 20 Thread-1   speechToText Google: ['light', 'on', '1,2', '', '80']
+2016-12-28 15:44:53,797 20 Thread-1   speechToText Bing: ['light', 'on', '1,2', '', '80']
+2016-12-28 15:44:53,797 20 Thread-1   speechToText Command: 
+
+light|on|1,2||80/
+2016-12-28 15:45:08,892 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:45:08,893 20 MainThread accept     Opening connection
+2016-12-28 15:45:11,761 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 15:45:13,683 20 Thread-8   google     Google (running time 1.91912078857): turn off like 3 with redness 70 + Co
+2016-12-28 15:45:17,549 20 Thread-7   wit        Wit.ai (running time 5.78651809692): turn on light three with retina seventy and color
+2016-12-28 15:45:22,549 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:45:22,550 20 MainThread accept     Opening connection
+2016-12-28 15:45:24,051 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 15:45:26,096 20 Thread-9   bing       Bing (running time 14.3284301758): turn off lights three with redness seventy impala
+2016-12-28 15:45:26,898 20 Thread-1   speechToText Wit.ai: ['light', 'on', '3', '', '']
+2016-12-28 15:45:26,898 20 Thread-1   speechToText Google: ['light', 'off', '3', '', '']
+2016-12-28 15:45:26,898 20 Thread-1   speechToText Bing: ['light', 'off', '3', '', '']
+2016-12-28 15:45:26,898 20 Thread-1   speechToText Command: 
+
+light|on|3||/
+2016-12-28 15:45:29,936 20 Thread-11  wit        Wit.ai (running time 3.03779792786): 
+2016-12-28 15:45:35,882 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 15:46:16,298 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:46:16,298 20 MainThread accept     Opening connection
+2016-12-28 15:46:21,443 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 15:46:23,653 20 Thread-16  google     Google (running time 2.20473504066): turn off light 2017 Impala red
+2016-12-28 15:46:28,244 20 Thread-17  bing       Bing (running time 6.79315710068): turn off flight three seventy in color red
+2016-12-28 15:46:28,927 20 Thread-15  wit        Wit.ai (running time 7.48140716553): turn off light three off button seventeen in color red
+2016-12-28 15:46:29,324 20 Thread-1   speechToText Wit.ai: ['light', 'off', '3', 'red', '']
+2016-12-28 15:46:29,324 20 Thread-1   speechToText Google: ['light', 'off', '', 'red', '']
+2016-12-28 15:46:29,324 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 15:46:29,324 20 Thread-1   speechToText Command: 
+
+light|off|3|red|/
+2016-12-28 15:47:45,771 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:47:45,771 20 MainThread accept     Opening connection
+2016-12-28 15:47:49,978 20 Thread-18  disconnect CLOSING CONNECTION
+2016-12-28 15:47:51,521 20 Thread-20  google     Google (running time 1.5388610363): turn on flight 370 and color blue
+2016-12-28 15:47:55,151 20 Thread-19  wit        Wit.ai (running time 5.17080998421): turn on light three with retina seventy and color blue
+2016-12-28 15:47:56,878 20 Thread-21  bing       Bing (running time 6.89500808716): turn on flight three is back in seventy in color blue
+2016-12-28 15:47:58,403 20 Thread-1   speechToText Wit.ai: ['light', 'on', '3', 'blue', '']
+2016-12-28 15:47:58,403 20 Thread-1   speechToText Google: ['light', 'on', '', 'blue', '']
+2016-12-28 15:47:58,403 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 15:47:58,403 20 Thread-1   speechToText Command: 
+
+light|on|3|blue|/
+2016-12-28 15:48:59,970 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 15:48:59,971 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------15:49:01----------
+-----------------------------
+-----------------------------
+----------15:49:06----------
+-----------------------------
+-----------------------------
+----------15:51:02----------
+-----------------------------
+-----------------------------
+----------15:52:08----------
+-----------------------------
+2016-12-28 15:52:08,920 20 MainThread __init__   OPENING SOCKET
+2016-12-28 15:52:08,920 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:52:08,921 20 MainThread accept     Opening connection
+2016-12-28 15:52:23,856 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:52:23,857 20 MainThread accept     Opening connection
+2016-12-28 15:52:29,475 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 15:52:32,219 20 Thread-4   google     Google (running time 2.7366271019): turn off like 3 with brightness 70 in Colorado
+2016-12-28 15:52:36,780 20 Thread-5   bing       Bing (running time 7.29409193993): turn off lights three is back miss seventy in color blue
+2016-12-28 15:52:37,079 20 Thread-3   wit        Wit.ai (running time 7.60200810432): no lights three this brightness seventy and blue
+2016-12-28 15:52:38,044 20 Thread-1   speechToText Wit.ai: ['light', 'on', '3', 'blue', '70']
+2016-12-28 15:52:38,045 20 Thread-1   speechToText Google: ['light', 'off', '3', '', '70']
+2016-12-28 15:52:38,045 20 Thread-1   speechToText Bing: ['light', 'off', '3', 'blue', '']
+2016-12-28 15:52:38,046 20 Thread-1   speechToText Command: 
+
+light|on|3|blue|70/
+2016-12-28 15:53:08,262 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:53:08,263 20 MainThread accept     Opening connection
+2016-12-28 15:53:09,564 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 15:53:10,341 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:53:10,342 20 MainThread accept     Opening connection
+2016-12-28 15:53:12,899 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 15:53:12,961 20 Thread-7   wit        Wit.ai (running time 3.39632987976): 
+2016-12-28 15:53:22,276 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 15:53:23,729 20 Thread-12  google     Google (running time 1.4506611824): turn off lights too
+2016-12-28 15:53:26,853 20 Thread-11  wit        Wit.ai (running time 4.57654905319): turn right to
+2016-12-28 15:53:39,429 20 Thread-13  bing       Bing (running time 17.1474530697): turn off lights two
+2016-12-28 15:53:40,281 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 15:53:40,281 20 Thread-1   speechToText Google: ['light', 'off', '2', '', '']
+2016-12-28 15:53:40,282 20 Thread-1   speechToText Bing: ['light', 'off', '2', '', '']
+2016-12-28 15:53:40,282 20 Thread-1   speechToText Command: 
+
+light|off|2||/
+2016-12-28 15:53:45,966 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:53:45,967 20 MainThread accept     Opening connection
+2016-12-28 15:53:47,966 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 15:53:50,824 20 Thread-15  wit        Wit.ai (running time 2.8565428257): turn off lights one and three
+2016-12-28 15:53:50,846 20 Thread-17  bing       Bing (running time 2.87244105339): turn off lights one and three
+2016-12-28 15:53:54,046 20 Thread-16  google     Google (running time 6.07665801048): turn off lights 1 and 3
+2016-12-28 15:53:55,499 20 Thread-1   speechToText Wit.ai: ['light', 'off', '1,3', '', '']
+2016-12-28 15:53:55,499 20 Thread-1   speechToText Google: ['light', 'off', '1,3', '', '']
+2016-12-28 15:53:55,499 20 Thread-1   speechToText Bing: ['light', 'off', '1,3', '', '']
+2016-12-28 15:53:55,500 20 Thread-1   speechToText Command: 
+
+light|off|1,3||/
+2016-12-28 15:54:00,562 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:54:00,562 20 MainThread accept     Opening connection
+2016-12-28 15:54:04,097 20 Thread-18  disconnect CLOSING CONNECTION
+2016-12-28 15:54:06,145 20 Thread-20  google     Google (running time 2.04407405853): you know like one and three with brightness 50
+2016-12-28 15:54:08,946 20 Thread-21  bing       Bing (running time 4.84233689308): turn on light one and three brightness fifty
+2016-12-28 15:54:10,068 20 Thread-19  wit        Wit.ai (running time 5.96909999847): to know that one of three with brightness fifty
+2016-12-28 15:54:10,410 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 15:54:10,410 20 Thread-1   speechToText Google: ['light', 'on', '1,3', '', '50']
+2016-12-28 15:54:10,411 20 Thread-1   speechToText Bing: ['light', 'on', '1,3', '', '50']
+2016-12-28 15:54:10,411 20 Thread-1   speechToText Command: 
+
+light|on|1,3||50/
+2016-12-28 15:54:15,981 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:54:15,981 20 MainThread accept     Opening connection
+2016-12-28 15:54:18,945 20 Thread-22  disconnect CLOSING CONNECTION
+2016-12-28 15:54:20,767 20 Thread-24  google     Google (running time 1.81889510155): turn on lights to brightness 50 and call
+2016-12-28 15:54:22,537 20 Thread-23  wit        Wit.ai (running time 3.59088110924): turn all lights to if writing
+2016-12-28 15:54:28,683 20 Thread-25  bing       Bing (running time 9.73164892197): turn all lights to brightness fifty in call
+2016-12-28 15:54:30,389 20 Thread-1   speechToText Wit.ai: ['light', 'on', 'all', '', '']
+2016-12-28 15:54:30,389 20 Thread-1   speechToText Google: ['light', 'on', '2', '', '50']
+2016-12-28 15:54:30,389 20 Thread-1   speechToText Bing: ['light', 'on', '2', '', '50']
+2016-12-28 15:54:30,389 20 Thread-1   speechToText Command: 
+
+light|on|2||50/
+2016-12-28 15:54:40,735 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:54:40,736 20 MainThread accept     Opening connection
+2016-12-28 15:54:42,074 20 Thread-26  disconnect CLOSING CONNECTION
+2016-12-28 15:54:43,271 20 Thread-28  google     Google (running time 1.19439101219): I like to
+2016-12-28 15:54:45,729 20 Thread-27  wit        Wit.ai (running time 3.65396499634): alright to
+2016-12-28 15:54:49,667 20 Thread-29  bing       Bing (running time 7.58741211891): alright too
+2016-12-28 15:54:50,590 20 Thread-1   speechToText Wit.ai: ['light', 'off', 'all', '', '']
+2016-12-28 15:54:50,590 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 15:54:50,590 20 Thread-1   speechToText Bing: ['light', 'off', '2', '', '']
+2016-12-28 15:54:50,591 20 Thread-1   speechToText Command: 
+
+light|off|2||/
+2016-12-28 15:54:54,807 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 15:54:54,808 20 MainThread accept     Opening connection
+2016-12-28 15:54:56,154 20 Thread-30  disconnect CLOSING CONNECTION
+2016-12-28 15:54:59,755 20 Thread-31  wit        Wit.ai (running time 3.5990819931): 
+2016-12-28 15:55:03,414 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 16:05:08,164 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 16:05:08,165 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:06:20----------
+-----------------------------
+2016-12-28 16:06:20,628 20 MainThread __init__   OPENING SOCKET
+2016-12-28 16:06:20,629 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 16:06:20,629 20 MainThread accept     Opening connection
+2016-12-28 16:06:34,907 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 16:06:34,908 20 MainThread accept     Opening connection
+2016-12-28 16:06:38,596 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 16:06:40,613 20 Thread-4   google     Google (running time 2.00966691971): turn on lights 1 & 3 with color blue
+2016-12-28 16:06:43,766 20 Thread-3   wit        Wit.ai (running time 5.16881513596): turn on lights one tv vcr to bring
+2016-12-28 16:06:44,097 20 Thread-5   bing       Bing (running time 5.4890229702): turn on lights one three record blue
+2016-12-28 16:06:45,697 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '']
+2016-12-28 16:06:45,698 20 Thread-1   speechToText Google: ['light', 'on', '1,3', 'blue', '']
+2016-12-28 16:06:45,698 20 Thread-1   speechToText Bing: ['light', 'on', 'all', 'blue', '']
+2016-12-28 16:06:45,698 20 Thread-1   speechToText Command: 
+
+light|on|1,3|blue|/
+2016-12-28 16:07:15,704 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 16:07:15,704 20 MainThread accept     Opening connection
+2016-12-28 16:07:19,926 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-28 16:07:24,203 20 Thread-9   bing       Bing (running time 4.26941490173): turn on lights one two color red
+2016-12-28 16:07:24,311 20 Thread-8   google     Google (running time 4.38119912148): turn on lights 1 and 2 color red
+2016-12-28 16:07:27,045 20 Thread-7   wit        Wit.ai (running time 7.11718893051): read what lights wanting to read
+2016-12-28 16:07:27,046 20 Thread-1   speechToText Wit.ai: ['light', 'on', 'all', '', '']
+2016-12-28 16:07:27,047 20 Thread-1   speechToText Google: ['light', 'on', '1,2', 'red', '']
+2016-12-28 16:07:27,047 20 Thread-1   speechToText Bing: ['light', 'on', 'all', 'red', '']
+2016-12-28 16:07:27,048 20 Thread-1   speechToText Command: 
+
+light|on|1,2|red|/
+2016-12-28 16:07:30,508 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 16:07:30,509 20 MainThread accept     Opening connection
+2016-12-28 16:07:34,265 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-28 16:07:35,983 20 Thread-12  google     Google (running time 1.7158241272): change color from white to red
+2016-12-28 16:07:38,377 20 Thread-13  bing       Bing (running time 4.10670804977): change color from lights two two red
+2016-12-28 16:07:38,807 20 Thread-11  wit        Wit.ai (running time 4.54079294205): change color from light two to red
+2016-12-28 16:07:39,639 20 Thread-1   speechToText Wit.ai: ['light', 'on', '2', 'red', '']
+2016-12-28 16:07:39,639 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 16:07:39,639 20 Thread-1   speechToText Bing: ['light', 'on', 'all', 'red', '']
+2016-12-28 16:07:39,639 20 Thread-1   speechToText Command: 
+
+light|on|2|red|/
+2016-12-28 16:07:48,909 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 16:07:48,909 20 MainThread accept     Opening connection
+2016-12-28 16:07:50,397 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-28 16:07:51,343 20 Thread-16  google     Google (running time 0.943065881729): change lights 3
+2016-12-28 16:07:53,557 20 Thread-15  wit        Wit.ai (running time 3.15848493576): change the lights three
+2016-12-28 16:07:58,470 20 Thread-17  bing       Bing (running time 8.06717896461): change lights three
+2016-12-28 16:07:59,294 20 Thread-1   speechToText Wit.ai: ['light', 'on', '3', '', '']
+2016-12-28 16:07:59,294 20 Thread-1   speechToText Google: ['light', 'on', '3', '', '']
+2016-12-28 16:07:59,295 20 Thread-1   speechToText Bing: ['light', 'on', '3', '', '']
+2016-12-28 16:07:59,295 20 Thread-1   speechToText Command: 
+
+light|on|3||/
+2016-12-28 16:08:04,299 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 16:08:04,300 20 MainThread accept     Opening connection
+2016-12-28 16:08:07,289 20 Thread-18  disconnect CLOSING CONNECTION
+2016-12-28 16:08:08,861 20 Thread-20  google     Google (running time 1.56872987747): light green to blue
+2016-12-28 16:08:13,023 20 Thread-19  wit        Wit.ai (running time 5.73248195648): right three to
+2016-12-28 16:08:13,707 20 Thread-21  bing       Bing (running time 6.41040110588): light pre taboo
+2016-12-28 16:08:15,844 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 16:08:15,844 20 Thread-1   speechToText Google: ['light', 'on', '2', '', '']
+2016-12-28 16:08:15,844 20 Thread-1   speechToText Bing: ['light', 'off', 'all', '', '']
+2016-12-28 16:08:15,844 20 Thread-1   speechToText Command: 
+
+light|on|2||/
+2016-12-28 16:08:30,873 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 16:08:30,873 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:47:21----------
+-----------------------------
+2016-12-28 17:47:21,594 20 MainThread __init__   OPENING SOCKET
+2016-12-28 17:47:21,594 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:47:21,595 20 MainThread accept     Opening connection
+2016-12-28 17:47:50,031 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:47:50,031 20 MainThread accept     Opening connection
+2016-12-28 17:47:51,458 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 17:47:54,517 20 Thread-3   wit        Wit.ai (running time 3.05778002739): 
+2016-12-28 17:47:57,688 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 17:49:09,155 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 17:49:09,156 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:52:05----------
+-----------------------------
+2016-12-28 17:52:05,053 20 MainThread __init__   OPENING SOCKET
+2016-12-28 17:52:05,054 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:52:05,054 20 MainThread accept     Opening connection
+2016-12-28 17:52:12,258 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:52:12,259 20 MainThread accept     Opening connection
+2016-12-28 17:52:14,427 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 17:52:15,476 20 Thread-4   google     Google (running time 1.04508113861): turn off all lights
+2016-12-28 17:52:17,480 20 Thread-3   wit        Wit.ai (running time 3.05221104622): turn on all lights
+2016-12-28 17:52:18,699 20 Thread-5   bing       Bing (running time 4.261977911): turn off all lights
+2016-12-28 17:52:20,223 20 Thread-1   speechToText Wit.ai: ['light', 'on', 'all', '', '']
+2016-12-28 17:52:20,224 20 Thread-1   speechToText Google: ['light', 'off', 'all', '', '']
+2016-12-28 17:52:20,225 20 Thread-1   speechToText Bing: ['light', 'off', 'all', '', '']
+2016-12-28 17:52:23,676 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 17:52:23,676 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:56:22----------
+-----------------------------
+2016-12-28 17:56:22,844 20 MainThread __init__   OPENING SOCKET
+2016-12-28 17:56:22,844 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:56:22,845 20 MainThread accept     Opening connection
+2016-12-28 17:56:34,766 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:56:34,766 20 MainThread accept     Opening connection
+2016-12-28 17:56:36,253 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 17:57:01,840 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 17:57:01,840 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:57:07----------
+-----------------------------
+2016-12-28 17:57:07,509 20 MainThread __init__   OPENING SOCKET
+2016-12-28 17:57:07,509 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:57:07,510 20 MainThread accept     Opening connection
+2016-12-28 17:57:19,208 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:57:19,208 20 MainThread accept     Opening connection
+2016-12-28 17:57:20,986 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 17:57:21,867 20 Thread-5   google     Google (running time 0.833703041077): turn off
+2016-12-28 17:57:24,763 20 Thread-4   wit        Wit.ai (running time 3.73215699196): no
+2016-12-28 17:57:28,438 20 Thread-6   bing       Bing (running time 7.40285801888): turn off
+2016-12-28 17:57:31,273 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 17:57:31,274 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 17:57:31,275 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 17:57:51,765 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 17:57:51,766 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:57:59----------
+-----------------------------
+2016-12-28 17:57:59,340 20 MainThread __init__   OPENING SOCKET
+2016-12-28 17:57:59,341 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:57:59,341 20 MainThread accept     Opening connection
+2016-12-28 17:58:06,918 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:58:06,918 20 MainThread accept     Opening connection
+2016-12-28 17:58:08,349 10 Thread-2   receive_message ERROR: Connection was closed on the other side
+2016-12-28 17:58:08,349 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 17:58:09,432 20 Thread-5   google     Google (running time 1.03232002258): turn off
+2016-12-28 17:58:11,546 20 Thread-4   wit        Wit.ai (running time 3.18760418892): turn on
+2016-12-28 17:58:12,457 20 Thread-6   bing       Bing (running time 4.05127596855): turn off
+2016-12-28 17:58:12,556 10 Thread-3   google_cloud Google Cloud ERROR: cannot concatenate 'str' and 'float' objects
+2016-12-28 17:58:13,318 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 17:58:13,318 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 17:58:13,318 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 17:58:47,986 10 MainThread main       
+CLOSING SOCKETS
+2016-12-28 17:58:47,987 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 17:58:47,987 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:58:54----------
+-----------------------------
+2016-12-28 17:58:54,924 20 MainThread __init__   OPENING SOCKET
+2016-12-28 17:58:54,925 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:58:54,925 20 MainThread accept     Opening connection
+2016-12-28 17:58:59,051 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:58:59,051 20 MainThread accept     Opening connection
+2016-12-28 17:59:00,569 10 Thread-2   receive_message ERROR: Connection was closed on the other side
+2016-12-28 17:59:00,570 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-28 17:59:01,716 20 Thread-5   google     Google (running time 1.09200787544): turn off
+2016-12-28 17:59:03,197 20 Thread-4   wit        Wit.ai (running time 2.57891893387): turn on
+2016-12-28 17:59:04,756 20 Thread-3   google_cloud Google Cloud (running time 2.47326087952, confidence 0.8772845): turn off
+2016-12-28 17:59:05,652 20 Thread-6   bing       Bing (running time 5.02622199059): turn off
+2016-12-28 17:59:07,111 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 17:59:07,111 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 17:59:07,112 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 17:59:07,112 20 Thread-1   speechToText Google Cloud: ['', '', 'all', '', '']
+2016-12-28 17:59:20,397 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:59:20,398 20 MainThread accept     Opening connection
+2016-12-28 17:59:22,075 10 Thread-7   receive_message ERROR: Connection was closed on the other side
+2016-12-28 17:59:22,075 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-28 17:59:23,269 20 Thread-10  google     Google (running time 1.147356987): turn off all lights
+2016-12-28 17:59:24,811 20 Thread-9   wit        Wit.ai (running time 2.69054579735): turn on all lights
+2016-12-28 17:59:27,204 20 Thread-8   google_cloud Google Cloud (running time 3.44687008858, confidence 0.74470323): turn off all lights
+2016-12-28 17:59:32,611 20 Thread-11  bing       Bing (running time 10.4887330532): turn off all lights
+2016-12-28 17:59:33,447 20 Thread-1   speechToText Wit.ai: ['light', 'on', 'all', '', '']
+2016-12-28 17:59:33,448 20 Thread-1   speechToText Google: ['light', 'off', 'all', '', '']
+2016-12-28 17:59:33,448 20 Thread-1   speechToText Bing: ['light', 'off', 'all', '', '']
+2016-12-28 17:59:33,449 20 Thread-1   speechToText Google Cloud: ['light', 'off', 'all', '', '']
+2016-12-28 17:59:33,449 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 17:59:37,711 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:59:37,712 20 MainThread accept     Opening connection
+2016-12-28 17:59:40,503 10 Thread-12  receive_message ERROR: Connection was closed on the other side
+2016-12-28 17:59:40,504 20 Thread-12  disconnect CLOSING CONNECTION
+2016-12-28 17:59:42,385 20 Thread-15  google     Google (running time 1.84068799019): turn off light with brightness 60
+2016-12-28 17:59:45,403 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:59:45,405 20 MainThread accept     Opening connection
+2016-12-28 17:59:45,759 20 Thread-16  bing       Bing (running time 5.21063303947): turn off light one with brightness sixty
+2016-12-28 17:59:46,512 20 Thread-14  wit        Wit.ai (running time 5.96759295464): toronto blog one with brightness sixty
+2016-12-28 17:59:46,654 20 Thread-13  google_cloud Google Cloud (running time 4.51610302925, confidence 0.82287455): turn off like one of brightness 60
+2016-12-28 17:59:47,416 10 Thread-17  receive_message ERROR: Connection was closed on the other side
+2016-12-28 17:59:47,416 20 Thread-17  disconnect CLOSING CONNECTION
+2016-12-28 17:59:47,924 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1', '', '60']
+2016-12-28 17:59:47,925 20 Thread-1   speechToText Google: ['light', 'off', 'all', '', '60']
+2016-12-28 17:59:47,926 20 Thread-1   speechToText Bing: ['light', 'off', '1', '', '60']
+2016-12-28 17:59:47,926 20 Thread-1   speechToText Google Cloud: ['light', 'off', '1', '', '60']
+2016-12-28 17:59:47,927 20 Thread-1   speechToText Command: 
+
+light|on|1||60/
+2016-12-28 17:59:48,686 10 Thread-20  google     Google Speech Recognition could not understand audio
+2016-12-28 17:59:50,620 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 17:59:50,621 20 MainThread accept     Opening connection
+2016-12-28 17:59:51,224 20 Thread-19  wit        Wit.ai (running time 3.22754502296): 
+2016-12-28 17:59:52,277 10 Thread-22  receive_message ERROR: Connection was closed on the other side
+2016-12-28 17:59:52,277 20 Thread-22  disconnect CLOSING CONNECTION
+2016-12-28 17:59:52,885 10 Thread-18  google_cloud Google Cloud ERROR: 'results'
+2016-12-28 17:59:52,892 10 Thread-21  bing       Microsoft Bing Voice Recognition could not understand audio
+2016-12-28 17:59:52,892 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 17:59:53,630 10 Thread-25  google     Google Speech Recognition could not understand audio
+2016-12-28 17:59:55,800 20 Thread-24  wit        Wit.ai (running time 2.90365815163): 
+2016-12-28 17:59:57,953 10 Thread-23  google_cloud Google Cloud ERROR: 'results'
+2016-12-28 18:00:00,191 10 Thread-26  bing       Microsoft Bing Voice Recognition could not understand audio
+2016-12-28 18:00:00,192 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:00:14,547 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:00:14,548 20 MainThread accept     Opening connection
+2016-12-28 18:00:15,832 10 Thread-27  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:00:15,832 20 Thread-27  disconnect CLOSING CONNECTION
+2016-12-28 18:00:17,018 20 Thread-30  google     Google (running time 1.14505815506): breakfast 16th
+2016-12-28 18:00:19,129 20 Thread-29  wit        Wit.ai (running time 3.25731801987): brightness sixty and call
+2016-12-28 18:00:20,390 20 Thread-31  bing       Bing (running time 4.51459097862): brightness sixty
+2016-12-28 18:00:20,680 20 Thread-28  google_cloud Google Cloud (running time 3.15791893005, confidence 0.6124484): brightness 60
+2016-12-28 18:00:21,248 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:00:21,249 20 MainThread accept     Opening connection
+2016-12-28 18:00:22,005 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:00:22,006 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 18:00:22,006 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 18:00:22,007 20 Thread-1   speechToText Google Cloud: ['', '', 'all', '', '']
+2016-12-28 18:00:24,020 10 Thread-32  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:00:24,020 20 Thread-32  disconnect CLOSING CONNECTION
+2016-12-28 18:00:25,220 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:00:25,220 20 MainThread accept     Opening connection
+2016-12-28 18:00:25,643 20 Thread-35  google     Google (running time 1.56759500504): turn off lights 1 and 3 with car
+2016-12-28 18:00:26,835 10 Thread-37  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:00:26,836 20 Thread-37  disconnect CLOSING CONNECTION
+2016-12-28 18:00:27,558 20 Thread-34  wit        Wit.ai (running time 3.48373794556): no lights one and three with all of
+2016-12-28 18:00:30,893 20 Thread-36  bing       Bing (running time 6.81538391113): turn off licuanan three or four
+2016-12-28 18:00:31,193 20 Thread-33  google_cloud Google Cloud (running time 5.33199095726, confidence 0.64174294): turn off lights one and three with color
+2016-12-28 18:00:32,278 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1,3', '', '']
+2016-12-28 18:00:32,278 20 Thread-1   speechToText Google: ['light', 'off', '1,3', '', '']
+2016-12-28 18:00:32,278 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 18:00:32,279 20 Thread-1   speechToText Google Cloud: ['light', 'off', '1,3', '', '']
+2016-12-28 18:00:32,279 20 Thread-1   speechToText Command: 
+
+light|on|1,3||/
+2016-12-28 18:00:33,255 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:00:33,255 20 MainThread accept     Opening connection
+2016-12-28 18:00:33,895 20 Thread-40  google     Google (running time 1.57586503029): Lambright
+2016-12-28 18:00:35,027 10 Thread-42  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:00:35,028 20 Thread-42  disconnect CLOSING CONNECTION
+2016-12-28 18:00:35,409 20 Thread-41  bing       Bing (running time 3.08583903313): do impression
+2016-12-28 18:00:37,002 20 Thread-39  wit        Wit.ai (running time 4.68338513374): oh and invite
+2016-12-28 18:00:37,398 20 Thread-38  google_cloud Google Cloud (running time 3.44482398033, confidence 0.30613625): lamp light
+2016-12-28 18:00:37,711 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:00:37,711 20 MainThread accept     Opening connection
+2016-12-28 18:00:38,684 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:00:38,685 20 Thread-1   speechToText Google: ['light', 'off', 'all', '', '']
+2016-12-28 18:00:38,685 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 18:00:38,685 20 Thread-1   speechToText Google Cloud: ['light', 'on', 'all', '', '']
+2016-12-28 18:00:38,686 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-28 18:00:39,893 10 Thread-43  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:00:39,893 20 Thread-43  disconnect CLOSING CONNECTION
+2016-12-28 18:00:40,201 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:00:40,201 20 MainThread accept     Opening connection
+2016-12-28 18:00:40,341 20 Thread-46  google     Google (running time 1.60017704964): Birdman
+2016-12-28 18:00:41,638 20 Thread-47  bing       Bing (running time 2.89473891258): bing bong
+2016-12-28 18:00:42,126 20 Thread-45  wit        Wit.ai (running time 3.38647794724): the name
+2016-12-28 18:00:43,229 20 Thread-44  google_cloud Google Cloud (running time 2.78083705902, confidence 0.31478035): Birdman
+2016-12-28 18:00:43,731 10 Thread-48  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:00:43,731 20 Thread-48  disconnect CLOSING CONNECTION
+2016-12-28 18:00:44,450 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:00:44,451 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 18:00:44,451 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 18:00:44,451 20 Thread-1   speechToText Google Cloud: ['', '', 'all', '', '']
+2016-12-28 18:00:46,149 20 Thread-51  google     Google (running time 1.65827178955): turn off lights woman 3
+2016-12-28 18:00:48,441 20 Thread-50  wit        Wit.ai (running time 3.95143508911): lets run in the
+2016-12-28 18:00:50,393 20 Thread-49  google_cloud Google Cloud (running time 4.19202613831, confidence 0.81585836): turn off lights woman three
+2016-12-28 18:00:54,060 20 Thread-52  bing       Bing (running time 9.56722092628): tell me a call let's one and three
+2016-12-28 18:00:55,504 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:00:55,504 20 Thread-1   speechToText Google: ['light', 'off', '3', '', '']
+2016-12-28 18:00:55,504 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 18:00:55,504 20 Thread-1   speechToText Google Cloud: ['light', 'off', '3', '', '']
+2016-12-28 18:00:55,504 20 Thread-1   speechToText Command: 
+
+light|off|3||/
+2016-12-28 18:00:57,297 20 Thread-55  google     Google (running time 1.74775600433): breakfast 60 and color yellow
+2016-12-28 18:01:00,044 20 Thread-56  bing       Bing (running time 4.49329900742): black and sixty M color is yellow
+2016-12-28 18:01:02,075 20 Thread-53  google_cloud Google Cloud (running time 4.53242492676, confidence 0.6938583): brightness 60 and color yellow
+2016-12-28 18:01:03,562 20 Thread-54  wit        Wit.ai (running time 8.05698299408): breakfast sixty and color yellow
+2016-12-28 18:01:03,563 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:01:03,564 20 Thread-1   speechToText Google: ['', '', 'all', '', '']
+2016-12-28 18:01:03,565 20 Thread-1   speechToText Bing: ['', '', 'all', '', '']
+2016-12-28 18:01:03,565 20 Thread-1   speechToText Google Cloud: ['', '', 'all', '', '']
+2016-12-28 18:01:45,805 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:01:45,806 20 MainThread accept     Opening connection
+2016-12-28 18:01:47,216 10 Thread-57  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:01:47,217 20 Thread-57  disconnect CLOSING CONNECTION
+2016-12-28 18:01:48,359 20 Thread-60  google     Google (running time 1.10207080841): lights
+2016-12-28 18:01:50,315 20 Thread-59  wit        Wit.ai (running time 3.05891299248): lights
+2016-12-28 18:01:52,099 20 Thread-58  google_cloud Google Cloud (running time 3.11860394478, confidence 0.93817776): lights
+2016-12-28 18:01:52,363 20 Thread-61  bing       Bing (running time 5.10294103622): lights
+2016-12-28 18:01:53,674 20 Thread-1   speechToText Wit.ai: ['light', 'toggle', 'all', '', '']
+2016-12-28 18:01:53,674 20 Thread-1   speechToText Google: ['light', 'toggle', 'all', '', '']
+2016-12-28 18:01:53,674 20 Thread-1   speechToText Bing: ['light', 'toggle', 'all', '', '']
+2016-12-28 18:01:53,675 20 Thread-1   speechToText Google Cloud: ['light', 'toggle', 'all', '', '']
+2016-12-28 18:01:53,675 20 Thread-1   speechToText Command: 
+
+light|toggle|all||/
+2016-12-28 18:02:21,648 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:02:21,649 20 MainThread accept     Opening connection
+2016-12-28 18:02:23,055 10 Thread-62  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:02:23,056 20 Thread-62  disconnect CLOSING CONNECTION
+2016-12-28 18:02:23,614 10 Thread-65  google     Google Speech Recognition could not understand audio
+2016-12-28 18:02:28,229 10 Thread-63  google_cloud Google Cloud ERROR: 'results'
+2016-12-28 18:02:28,469 20 Thread-64  wit        Wit.ai (running time 5.40755414963): 
+2016-12-28 18:02:33,520 10 Thread-66  bing       Microsoft Bing Voice Recognition could not understand audio
+2016-12-28 18:02:33,521 20 Thread-1   speechToText Wit.ai: ['', '', 'all', '', '']
+2016-12-28 18:02:52,041 20 MainThread main       
+Listening for incoming connections...
+2016-12-28 18:02:52,041 20 MainThread accept     Opening connection
+2016-12-28 18:02:54,286 10 Thread-67  receive_message ERROR: Connection was closed on the other side
+2016-12-28 18:02:54,286 20 Thread-67  disconnect CLOSING CONNECTION
+2016-12-28 18:02:56,236 20 Thread-70  google     Google (running time 1.91073608398): yellow on lights 1 and 3
+2016-12-28 18:02:58,860 20 Thread-69  wit        Wit.ai (running time 4.53613185883): yellow lights one and three
+2016-12-28 18:03:00,343 20 Thread-68  google_cloud Google Cloud (running time 3.61401796341, confidence 0.91716164): yellow on lights 1 and 3
+2016-12-28 18:03:04,180 20 Thread-71  bing       Bing (running time 9.8512699604): yellow on lights one and three
+2016-12-28 18:03:05,554 20 Thread-1   speechToText Wit.ai: ['light', 'on', '1,3', 'yellow', '']
+2016-12-28 18:03:05,555 20 Thread-1   speechToText Google: ['light', 'on', '1,3', 'yellow', '']
+2016-12-28 18:03:05,555 20 Thread-1   speechToText Bing: ['light', 'on', '1,3', 'yellow', '']
+2016-12-28 18:03:05,556 20 Thread-1   speechToText Google Cloud: ['light', 'on', '1,3', 'yellow', '']
+2016-12-28 18:03:05,556 20 Thread-1   speechToText Command: 
+
+light|on|1,3|yellow|/
+2016-12-28 18:03:21,136 10 MainThread main       
+CLOSING SOCKETS
+2016-12-28 18:03:21,137 20 MainThread disconnect CLOSING CONNECTION
+2016-12-28 18:03:21,137 20 MainThread destroy    CLOSING SOCKET

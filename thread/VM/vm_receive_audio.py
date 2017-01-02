@@ -306,7 +306,7 @@ class AudioProcessing():
 		return result
 
 
-	def speechToText(self):# , send_socket):
+	def speechToText(self, send_socket):
 		print('Starting Recognizer thread')
 
 		r = sr.Recognizer()
@@ -357,8 +357,9 @@ class AudioProcessing():
 
 			if text:
 				self.log.info("Command: \n\n" + text)
-				
-				#send_socket.send_message(text)
+				print 'Sending'		
+				send_socket.send_message(text)
+				print 'Sent'
 
 
 	def main(self, save = False, play = False):
@@ -374,10 +375,10 @@ class AudioProcessing():
 		recv_socket.connect()
 
 		#Open sending end
-		#send_socket = connection.Client(HOST_SEND, PORT)
-		#send_socket.connect()
+		send_socket = connection.Client(HOST_SEND, PORT)
+		send_socket.connect()
 		#Opening threads
-		stt_thread = Thread(target=self.speechToText)#, args = (send_socket,))
+		stt_thread = Thread(target=self.speechToText, args = (send_socket,))
 		stt_thread.start()
 
 
@@ -398,7 +399,7 @@ class AudioProcessing():
 		finally:
 			self.log.debug('\nCLOSING SOCKETS')
 			recv_socket.destroy()
-			#send_socket.destroy()
+			send_socket.destroy()
 			self.AUDIO_QUEUE.put(None)
 
 

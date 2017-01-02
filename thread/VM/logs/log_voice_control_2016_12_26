@@ -1,0 +1,2381 @@
+-----------------------------
+----------16:13:42----------
+-----------------------------
+-----------------------------
+----------16:14:08----------
+-----------------------------
+-----------------------------
+----------16:14:53----------
+-----------------------------
+-----------------------------
+----------16:15:39----------
+-----------------------------
+-----------------------------
+----------16:17:09----------
+-----------------------------
+-----------------------------
+----------16:19:04----------
+-----------------------------
+-----------------------------
+----------16:20:30----------
+-----------------------------
+-----------------------------
+----------16:21:09----------
+-----------------------------
+-----------------------------
+----------16:21:31----------
+-----------------------------
+-----------------------------
+----------16:22:34----------
+-----------------------------
+2016-12-26 16:22:34,645 20 MainThread accept     Opening connection
+-----------------------------
+----------16:23:35----------
+-----------------------------
+2016-12-26 16:23:35,240 20 MainThread accept     Opening connection
+-----------------------------
+----------16:24:11----------
+-----------------------------
+2016-12-26 16:24:11,277 20 MainThread accept     Opening connection
+-----------------------------
+----------16:25:17----------
+-----------------------------
+2016-12-26 16:25:17,780 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:25:17,781 20 MainThread accept     Opening connection
+2016-12-26 16:29:33,538 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,538 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:29:33,538 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,538 20 MainThread accept     Opening connection
+2016-12-26 16:29:33,538 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,568 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,568 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,598 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,598 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,628 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,628 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,628 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,628 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,658 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,658 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,688 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,689 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,719 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,719 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,719 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,719 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,749 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,749 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,779 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,779 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,810 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,810 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,839 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,839 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,839 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,839 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,869 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,869 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,905 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,905 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,945 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,945 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,945 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,945 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,985 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,985 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,989 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:33,989 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,025 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,025 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,026 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,026 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,069 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,069 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,078 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,079 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,117 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,117 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,157 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,157 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,157 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,158 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,197 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,197 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,199 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,199 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,237 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,237 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,237 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,237 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,277 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,277 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,289 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,289 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,325 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,325 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,365 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,365 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,365 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,365 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,405 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,405 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,410 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,410 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,449 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,449 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,449 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,449 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,489 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,489 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,500 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,500 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,537 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,537 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,537 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,538 20 Thread-2   receive_message receiving message
+2016-12-26 16:29:34,560 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:29:41,374 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:29:41,374 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:31:09----------
+-----------------------------
+2016-12-26 16:31:09,456 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:09,456 20 MainThread accept     Opening connection
+2016-12-26 16:31:11,995 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:11,995 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:11,995 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:11,995 20 MainThread accept     Opening connection
+2016-12-26 16:31:11,995 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,025 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,025 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,055 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,055 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,085 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,085 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,085 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,085 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,115 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,115 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,145 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,146 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,174 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,175 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,175 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,175 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,205 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,205 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,235 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,235 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,265 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,266 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,290 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,291 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,321 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,321 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,321 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,321 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,357 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,358 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,397 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,397 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,437 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,437 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,437 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,438 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,477 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,477 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,477 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,478 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,517 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,517 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,517 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,517 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,557 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,557 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,562 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,562 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,601 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,601 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,641 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,641 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,642 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,642 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,681 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,681 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,681 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,681 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,721 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,721 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,721 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,722 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,761 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,761 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,771 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,771 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,809 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,810 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,810 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,810 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,849 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,849 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,862 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,862 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,901 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,902 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,941 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,941 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,941 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,942 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,981 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,981 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,983 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:12,983 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:13,013 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:13,014 20 Thread-2   receive_message receiving message
+2016-12-26 16:31:13,014 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:31:36,701 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:36,702 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,702 20 MainThread accept     Opening connection
+2016-12-26 16:31:36,702 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,703 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,703 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,703 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,703 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,703 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,703 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,704 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,704 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,704 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,704 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,704 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,704 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,705 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,706 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,707 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,707 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,707 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,707 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,707 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,707 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,730 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,731 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,769 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,769 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,809 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,809 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,809 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,810 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,849 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,849 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,852 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,852 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,889 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,889 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,889 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,889 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,929 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,929 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,942 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,943 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,981 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:36,981 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,021 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,021 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,021 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,021 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,061 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,061 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,062 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,062 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,101 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,101 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,101 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,102 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,141 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,141 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,152 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,152 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,189 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,189 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,189 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,189 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,229 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,229 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,242 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,242 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,281 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,281 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,321 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,321 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,321 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,321 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,361 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,361 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,362 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,362 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,401 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,402 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,402 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,402 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,441 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,441 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,453 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,453 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,489 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,489 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,529 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,529 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,529 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,530 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,569 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,569 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,574 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,575 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,613 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,613 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,613 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,614 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,653 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,653 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,664 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,664 20 Thread-6   receive_message receiving message
+2016-12-26 16:31:37,694 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:31:38,453 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,454 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:38,454 20 MainThread accept     Opening connection
+2016-12-26 16:31:38,454 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,455 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,455 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,455 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,455 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,456 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,457 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,457 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,457 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,457 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,457 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,457 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,458 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,458 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,458 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,458 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,458 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,458 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,459 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,460 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,482 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,482 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,513 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,513 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,549 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,549 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,549 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,549 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,589 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,589 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,602 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,602 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,641 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,641 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,641 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,641 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,681 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,681 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,693 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,693 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,729 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,730 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,730 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,730 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,769 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,769 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,784 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,784 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,821 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,821 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,821 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,821 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,861 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,861 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,873 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,874 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,913 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,913 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,914 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,914 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,953 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,953 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,963 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:38,963 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,001 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,001 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,041 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,041 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,041 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,042 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,081 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,081 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,083 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,083 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,121 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,121 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,121 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,121 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,161 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,161 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,173 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,173 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,213 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,213 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,213 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,214 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,253 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,253 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,264 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,264 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,301 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,302 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,341 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,341 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,341 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,341 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,381 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,381 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,384 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,384 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,421 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,421 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,421 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,421 20 Thread-7   receive_message receiving message
+2016-12-26 16:31:39,445 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-26 16:31:39,929 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:39,930 20 MainThread accept     Opening connection
+2016-12-26 16:31:39,930 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,930 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,930 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,930 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,931 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,931 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,931 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,931 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,931 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,931 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,932 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,933 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,933 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,933 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,933 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,933 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,933 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,934 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,935 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,958 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,959 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,989 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:39,989 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,025 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,025 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,025 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,025 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,065 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,065 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,079 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,080 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,117 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,117 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,118 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,118 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,157 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,157 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,170 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,170 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,209 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,209 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,249 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,249 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,249 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,250 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,289 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,289 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,290 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,290 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,329 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,329 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,329 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,329 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,369 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,369 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,380 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,380 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,417 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,417 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,417 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,418 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,457 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,457 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,471 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,471 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,509 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,509 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,549 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,549 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,549 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,549 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,589 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,589 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,590 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,590 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,629 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,629 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,630 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,630 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,669 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,669 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,681 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,681 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,717 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,717 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,757 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,757 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,757 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,757 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,797 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,797 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,802 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,802 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,841 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,842 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,842 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,842 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,881 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,881 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,893 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,893 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,929 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,929 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,929 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,929 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,969 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,969 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,984 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:40,984 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,021 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,021 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,022 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,022 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,061 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,061 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,074 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,075 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,113 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,113 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,153 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,153 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,154 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,154 20 Thread-8   receive_message receiving message
+2016-12-26 16:31:41,165 20 Thread-8   disconnect CLOSING CONNECTION
+2016-12-26 16:31:45,366 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,367 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:45,367 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,367 20 MainThread accept     Opening connection
+2016-12-26 16:31:45,368 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,368 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,368 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,368 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,369 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,369 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,369 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,369 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,369 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,369 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,370 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,370 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,370 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,370 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,370 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,370 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,371 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,372 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,396 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,396 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,426 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,426 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,465 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,465 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,466 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,466 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,505 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,505 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,517 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,517 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,553 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,553 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,554 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,554 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,593 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,594 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,608 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,608 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,645 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,645 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,645 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,645 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,685 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,685 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,698 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,698 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,737 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,737 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,737 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,737 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,777 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,777 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,787 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,787 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,825 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,825 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,865 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,865 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,865 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,865 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,905 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,906 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,909 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,909 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,945 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,945 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,945 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,946 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,985 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,985 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,999 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:45,999 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,037 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,037 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,077 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,077 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,077 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,078 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,117 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,117 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,117 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,117 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,157 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,157 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,158 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,158 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,197 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,198 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,205 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,205 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,245 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,245 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,285 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,285 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,285 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,285 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,325 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,326 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,326 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,326 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,365 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,365 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,365 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,365 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,405 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,405 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,416 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,416 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,453 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,453 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,493 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,493 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,493 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,493 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,533 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,533 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,536 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,536 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,573 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,573 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,573 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,573 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,614 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,614 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,626 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,626 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,665 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,665 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,665 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,665 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,705 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,706 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,716 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,716 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,753 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,753 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,793 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,793 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,793 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,794 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,833 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,833 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,836 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,836 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,873 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,873 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,873 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,873 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,913 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,913 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,926 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,926 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,965 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:46,965 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,005 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,005 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,005 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,005 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,045 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,045 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,047 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,047 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,085 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,085 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,085 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,086 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,125 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,125 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,137 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,138 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,177 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,177 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,177 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,178 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,217 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,217 20 Thread-9   receive_message receiving message
+2016-12-26 16:31:47,228 20 Thread-9   disconnect CLOSING CONNECTION
+2016-12-26 16:31:47,289 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:31:47,289 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,290 20 MainThread accept     Opening connection
+2016-12-26 16:31:47,290 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,290 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,290 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,290 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,290 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,290 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,318 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,319 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,348 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,348 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,378 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,379 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,379 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,379 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,409 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,409 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,439 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,439 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,469 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,469 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,509 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,510 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,510 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,510 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,549 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,549 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,556 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,557 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,593 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,593 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,594 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,594 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,633 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,633 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,646 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,647 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,685 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,685 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,725 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,725 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,725 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,725 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,765 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,765 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,766 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,766 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,805 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,805 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,805 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,806 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,845 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,845 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,857 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,857 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,897 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,897 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,897 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,897 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,941 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,941 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,948 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,948 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,985 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:47,985 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,025 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,025 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,025 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,025 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,065 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,065 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,068 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,068 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,105 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,105 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,105 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,106 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,145 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,145 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,159 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,159 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,197 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,197 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,237 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,237 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,238 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,238 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,277 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,277 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,279 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,279 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,317 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,318 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,318 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,318 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,357 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,358 20 Thread-10  receive_message receiving message
+2016-12-26 16:31:48,369 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-26 16:31:49,903 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:31:49,904 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:34:40----------
+-----------------------------
+2016-12-26 16:34:40,579 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:34:40,579 20 MainThread accept     Opening connection
+2016-12-26 16:34:43,508 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:34:43,509 20 MainThread accept     Opening connection
+2016-12-26 16:34:44,530 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:34:46,651 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:34:46,652 20 MainThread accept     Opening connection
+2016-12-26 16:34:47,644 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:34:49,601 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:34:49,601 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:37:11----------
+-----------------------------
+-----------------------------
+----------16:38:02----------
+-----------------------------
+2016-12-26 16:38:02,676 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:38:02,676 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:38:02,676 20 MainThread accept     Opening connection
+2016-12-26 16:38:07,507 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:38:07,507 20 MainThread accept     Opening connection
+2016-12-26 16:38:08,534 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:38:22,661 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:38:22,661 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:40:08----------
+-----------------------------
+2016-12-26 16:40:08,658 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:40:08,658 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:40:08,658 20 MainThread accept     Opening connection
+2016-12-26 16:40:10,754 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:40:10,754 20 MainThread accept     Opening connection
+2016-12-26 16:40:11,780 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:40:18,507 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:40:18,508 20 MainThread accept     Opening connection
+2016-12-26 16:40:19,500 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:40:20,343 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:40:20,344 20 MainThread accept     Opening connection
+2016-12-26 16:40:21,345 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-26 16:40:26,293 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:40:26,294 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:42:43----------
+-----------------------------
+2016-12-26 16:42:43,920 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:42:43,920 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:42:43,920 20 MainThread accept     Opening connection
+2016-12-26 16:43:30,536 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:43:30,536 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:43:39----------
+-----------------------------
+2016-12-26 16:43:39,685 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:43:39,685 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:43:39,685 20 MainThread accept     Opening connection
+2016-12-26 16:45:31,641 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:45:31,642 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:45:35----------
+-----------------------------
+2016-12-26 16:45:35,996 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:45:35,997 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:45:35,997 20 MainThread accept     Opening connection
+2016-12-26 16:45:53,689 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:45:53,689 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:47:37----------
+-----------------------------
+2016-12-26 16:47:37,722 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:47:37,722 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:47:37,722 20 MainThread accept     Opening connection
+2016-12-26 16:47:49,618 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:47:49,618 20 MainThread accept     Opening connection
+2016-12-26 16:47:51,582 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:47:52,670 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:47:52,671 20 MainThread accept     Opening connection
+2016-12-26 16:47:54,218 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:48:01,323 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:48:01,323 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:48:30----------
+-----------------------------
+2016-12-26 16:48:30,703 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:48:30,703 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:48:30,703 20 MainThread accept     Opening connection
+2016-12-26 16:48:33,470 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:48:33,471 20 MainThread accept     Opening connection
+2016-12-26 16:48:35,140 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:48:37,379 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:48:37,379 20 MainThread accept     Opening connection
+2016-12-26 16:48:38,378 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:48:55,082 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:48:55,082 20 MainThread accept     Opening connection
+2016-12-26 16:48:56,444 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-26 16:49:06,145 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:49:06,146 20 MainThread accept     Opening connection
+2016-12-26 16:49:08,016 20 Thread-8   disconnect CLOSING CONNECTION
+2016-12-26 16:49:13,686 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:49:13,686 20 MainThread accept     Opening connection
+2016-12-26 16:49:15,706 20 Thread-9   disconnect CLOSING CONNECTION
+2016-12-26 16:49:22,044 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:49:22,044 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:49:24----------
+-----------------------------
+2016-12-26 16:49:24,961 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:49:24,962 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:49:24,962 20 MainThread accept     Opening connection
+2016-12-26 16:49:28,149 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:49:28,149 20 MainThread accept     Opening connection
+2016-12-26 16:49:30,147 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:49:33,532 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:49:33,533 20 MainThread accept     Opening connection
+2016-12-26 16:49:34,530 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:49:35,345 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:49:35,345 20 MainThread accept     Opening connection
+2016-12-26 16:49:36,343 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-26 16:54:10,527 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:54:10,528 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:54:13----------
+-----------------------------
+2016-12-26 16:54:13,687 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:54:13,687 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:54:13,687 20 MainThread accept     Opening connection
+2016-12-26 16:54:19,865 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:54:19,866 20 MainThread accept     Opening connection
+2016-12-26 16:54:21,375 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:54:31,537 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:54:31,537 20 MainThread accept     Opening connection
+2016-12-26 16:54:32,874 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:54:39,573 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:54:39,574 20 MainThread accept     Opening connection
+2016-12-26 16:54:40,572 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-26 16:54:41,631 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:54:41,632 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:55:32----------
+-----------------------------
+2016-12-26 16:55:32,572 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:55:32,572 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:55:32,572 20 MainThread accept     Opening connection
+2016-12-26 16:55:37,386 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:55:37,386 20 MainThread accept     Opening connection
+2016-12-26 16:55:38,963 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:55:48,576 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:55:48,576 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:56:09----------
+-----------------------------
+2016-12-26 16:56:09,300 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:56:09,300 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:56:09,301 20 MainThread accept     Opening connection
+2016-12-26 16:56:13,008 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:56:13,009 20 MainThread accept     Opening connection
+2016-12-26 16:56:14,822 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:56:22,545 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:56:22,545 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:57:35----------
+-----------------------------
+2016-12-26 16:57:35,125 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:57:35,125 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:57:35,125 20 MainThread accept     Opening connection
+2016-12-26 16:57:39,340 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:57:39,341 20 MainThread accept     Opening connection
+2016-12-26 16:57:40,373 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:57:53,826 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:57:53,826 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:58:16----------
+-----------------------------
+2016-12-26 16:58:16,495 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:58:16,495 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:58:16,495 20 MainThread accept     Opening connection
+2016-12-26 16:58:21,397 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:58:21,398 20 MainThread accept     Opening connection
+2016-12-26 16:58:22,552 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:58:33,682 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:58:33,682 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------16:59:16----------
+-----------------------------
+2016-12-26 16:59:16,956 20 MainThread __init__   OPENING SOCKET
+2016-12-26 16:59:16,956 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:59:16,956 20 MainThread accept     Opening connection
+2016-12-26 16:59:21,037 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:59:21,038 20 MainThread accept     Opening connection
+2016-12-26 16:59:22,421 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 16:59:26,467 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-26 16:59:31,510 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:59:31,510 20 MainThread accept     Opening connection
+2016-12-26 16:59:33,116 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 16:59:34,806 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 16:59:34,807 20 MainThread accept     Opening connection
+2016-12-26 16:59:35,805 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-26 16:59:37,225 20 Thread-1   speechToText Command: 
+
+light|on|1||/
+2016-12-26 16:59:50,867 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 16:59:50,867 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:01:29----------
+-----------------------------
+2016-12-26 17:01:29,319 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:01:29,319 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:01:29,319 20 MainThread accept     Opening connection
+2016-12-26 17:01:34,799 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:01:34,800 20 MainThread accept     Opening connection
+2016-12-26 17:01:35,798 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:01:40,657 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-26 17:01:43,761 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:01:43,762 20 MainThread accept     Opening connection
+2016-12-26 17:01:44,880 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:01:45,213 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:01:45,214 20 MainThread accept     Opening connection
+2016-12-26 17:01:46,211 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-26 17:01:48,651 20 Thread-1   speechToText Command: 
+
+light|off|1||/
+2016-12-26 17:01:52,867 20 Thread-1   speechToText Command: 
+
+light|on|all|red|/
+2016-12-26 17:02:01,380 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:02:01,381 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:02:36----------
+-----------------------------
+2016-12-26 17:02:36,574 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:02:36,574 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:02:36,574 20 MainThread accept     Opening connection
+2016-12-26 17:02:42,096 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:02:42,096 20 MainThread accept     Opening connection
+2016-12-26 17:02:44,905 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:02:51,024 20 Thread-1   speechToText Command: 
+
+light|on|all|red|/
+2016-12-26 17:02:53,925 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:02:53,926 20 MainThread accept     Opening connection
+2016-12-26 17:02:56,043 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:02:59,605 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:02:59,605 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:03:46----------
+-----------------------------
+2016-12-26 17:03:46,062 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:03:46,062 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:03:46,062 20 MainThread accept     Opening connection
+2016-12-26 17:03:51,108 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:03:51,109 20 MainThread accept     Opening connection
+2016-12-26 17:03:54,808 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:04:02,002 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+2016-12-26 17:04:07,022 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:04:07,023 20 MainThread accept     Opening connection
+2016-12-26 17:04:11,362 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:04:18,022 20 Thread-1   speechToText Command: 
+
+light|on|3||5/
+2016-12-26 17:04:22,372 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:04:22,373 20 MainThread accept     Opening connection
+2016-12-26 17:04:24,361 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-26 17:04:26,634 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:04:26,634 20 MainThread accept     Opening connection
+2016-12-26 17:04:29,970 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-26 17:04:37,158 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:04:37,158 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:06:45----------
+-----------------------------
+2016-12-26 17:06:45,957 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:06:45,958 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:06:45,958 20 MainThread accept     Opening connection
+2016-12-26 17:06:53,523 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:06:53,523 20 MainThread accept     Opening connection
+2016-12-26 17:06:57,732 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:07:22,914 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:07:22,914 20 MainThread accept     Opening connection
+2016-12-26 17:07:25,004 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:07:28,136 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:07:28,136 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:07:31----------
+-----------------------------
+2016-12-26 17:07:31,472 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:07:31,473 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:07:31,473 20 MainThread accept     Opening connection
+2016-12-26 17:07:36,504 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:07:36,504 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:07:37----------
+-----------------------------
+2016-12-26 17:07:37,673 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:07:37,673 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:07:37,673 20 MainThread accept     Opening connection
+2016-12-26 17:07:41,064 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:07:41,064 20 MainThread accept     Opening connection
+2016-12-26 17:07:46,259 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:07:46,532 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:07:46,532 20 MainThread accept     Opening connection
+2016-12-26 17:07:48,528 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:07:49,707 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:07:49,707 20 MainThread accept     Opening connection
+2016-12-26 17:07:51,697 20 Thread-7   disconnect CLOSING CONNECTION
+2016-12-26 17:07:52,648 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:07:52,649 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:08:42----------
+-----------------------------
+2016-12-26 17:08:42,758 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:08:42,758 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:08:42,758 20 MainThread accept     Opening connection
+2016-12-26 17:08:50,509 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:08:50,510 20 MainThread accept     Opening connection
+2016-12-26 17:08:54,077 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:09:00,486 20 Thread-1   speechToText Command: 
+
+light|on|all|yellow|/
+2016-12-26 17:09:05,402 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:09:05,403 20 MainThread accept     Opening connection
+2016-12-26 17:09:07,398 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:09:09,939 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:09:09,940 20 MainThread accept     Opening connection
+2016-12-26 17:09:13,416 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-26 17:09:21,990 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:09:21,991 20 MainThread accept     Opening connection
+2016-12-26 17:09:23,990 20 Thread-11  disconnect CLOSING CONNECTION
+2016-12-26 17:09:33,057 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:09:33,057 20 MainThread accept     Opening connection
+2016-12-26 17:09:36,541 20 Thread-12  disconnect CLOSING CONNECTION
+2016-12-26 17:09:42,265 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:09:42,265 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------17:12:01----------
+-----------------------------
+2016-12-26 17:12:01,519 20 MainThread __init__   OPENING SOCKET
+2016-12-26 17:12:01,520 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:12:01,520 20 MainThread accept     Opening connection
+2016-12-26 17:12:06,351 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:12:06,351 20 MainThread accept     Opening connection
+2016-12-26 17:12:10,672 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 17:12:14,942 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:12:14,943 20 MainThread accept     Opening connection
+2016-12-26 17:12:17,571 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 17:12:26,728 20 Thread-1   speechToText Command: 
+
+light|on|1||/
+2016-12-26 17:12:30,306 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:12:30,307 20 MainThread accept     Opening connection
+2016-12-26 17:12:34,364 20 Thread-10  disconnect CLOSING CONNECTION
+2016-12-26 17:12:36,576 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:12:36,577 20 MainThread accept     Opening connection
+2016-12-26 17:12:38,571 20 Thread-14  disconnect CLOSING CONNECTION
+2016-12-26 17:12:40,851 20 Thread-1   speechToText Command: 
+
+light|on|all|red|/
+2016-12-26 17:12:49,445 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:12:49,445 20 MainThread accept     Opening connection
+2016-12-26 17:12:51,959 20 Thread-18  disconnect CLOSING CONNECTION
+2016-12-26 17:13:01,858 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:01,858 20 MainThread accept     Opening connection
+2016-12-26 17:13:05,072 20 Thread-22  disconnect CLOSING CONNECTION
+2016-12-26 17:13:05,374 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:05,374 20 MainThread accept     Opening connection
+2016-12-26 17:13:07,377 20 Thread-26  disconnect CLOSING CONNECTION
+2016-12-26 17:13:10,743 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:10,743 20 MainThread accept     Opening connection
+2016-12-26 17:13:12,761 20 Thread-27  disconnect CLOSING CONNECTION
+2016-12-26 17:13:18,595 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:18,595 20 MainThread accept     Opening connection
+2016-12-26 17:13:24,817 20 Thread-31  disconnect CLOSING CONNECTION
+2016-12-26 17:13:25,361 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:25,361 20 MainThread accept     Opening connection
+2016-12-26 17:13:27,357 20 Thread-35  disconnect CLOSING CONNECTION
+2016-12-26 17:13:48,015 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:48,016 20 MainThread accept     Opening connection
+2016-12-26 17:13:50,850 20 Thread-39  disconnect CLOSING CONNECTION
+2016-12-26 17:13:52,351 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:13:52,351 20 MainThread accept     Opening connection
+2016-12-26 17:13:54,582 20 Thread-40  disconnect CLOSING CONNECTION
+2016-12-26 17:14:01,420 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:14:01,420 20 MainThread accept     Opening connection
+2016-12-26 17:14:06,015 20 Thread-44  disconnect CLOSING CONNECTION
+2016-12-26 17:14:28,991 20 Thread-1   speechToText Command: 
+
+light|on|all|yellow|/
+2016-12-26 17:14:35,772 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 17:14:35,773 20 MainThread accept     Opening connection
+2016-12-26 17:14:38,207 20 Thread-54  disconnect CLOSING CONNECTION
+2016-12-26 17:14:42,533 20 Thread-1   speechToText Command: 
+
+light|on|all|green|/
+2016-12-26 17:15:08,686 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 17:15:08,686 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------18:12:32----------
+-----------------------------
+2016-12-26 18:12:32,117 20 MainThread __init__   OPENING SOCKET
+-----------------------------
+----------18:13:20----------
+-----------------------------
+2016-12-26 18:13:20,602 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:13:20,602 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:13:20,821 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,940 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,953 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,959 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,966 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,974 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,981 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:20,989 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,002 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,015 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,021 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,028 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,036 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,043 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,049 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,056 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,062 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,068 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,075 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,096 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,109 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,117 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,124 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,130 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,139 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,145 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,152 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,158 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,165 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,174 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,184 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,193 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,202 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,222 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,235 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,242 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,252 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,259 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,269 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,276 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,282 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,289 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,303 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,310 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,318 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,324 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,335 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,343 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,358 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,368 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,383 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,398 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,408 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,416 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,423 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,431 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,440 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,449 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,458 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,466 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,481 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,487 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,494 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,508 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,519 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,530 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,540 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,549 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,558 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,569 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,577 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,622 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,643 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,652 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,660 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,669 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,678 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,688 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,695 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,701 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,712 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,720 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,727 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,733 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,746 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,753 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,764 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,772 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,781 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,792 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,800 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,815 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,830 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,836 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,842 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,851 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,864 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,878 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,887 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,894 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,900 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:21,937 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,013 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,031 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,038 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,044 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,051 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,059 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,070 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,079 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,085 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,092 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,098 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,105 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,113 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,122 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,128 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,137 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,143 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,150 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,156 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,163 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,176 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,191 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,197 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,204 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,210 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,223 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,230 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,238 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,247 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,253 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,262 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,271 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,277 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,283 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,290 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,296 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,303 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,309 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:13:22,316 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+-----------------------------
+----------18:14:16----------
+-----------------------------
+2016-12-26 18:14:16,095 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:14:16,095 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:14:16,159 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,279 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,350 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,389 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,404 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,413 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,421 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,431 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,445 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,460 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,470 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,497 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,503 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,541 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,554 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,569 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,579 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,588 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,601 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,609 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,617 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,626 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,633 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,639 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,648 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,687 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,702 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,717 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,727 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,734 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,741 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,750 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,760 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,769 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,775 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,781 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,790 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,796 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,805 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,811 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,820 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,827 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,833 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,846 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,858 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,879 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,892 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,907 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,913 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,920 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,928 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,935 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,944 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,954 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,963 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,976 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,982 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,989 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:16,997 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,010 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,016 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,025 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,031 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,040 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,046 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,055 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,070 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,078 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,091 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,099 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,106 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,112 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,119 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,128 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,136 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,143 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,151 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,162 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,168 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,181 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,187 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,194 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,201 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,207 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,216 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,222 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,231 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,242 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,250 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,271 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,284 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,292 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,299 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,305 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,318 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,324 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,333 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,342 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,350 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,365 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,378 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,384 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,391 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,397 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,404 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,410 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,419 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,425 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,434 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,442 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,455 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,470 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,481 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,491 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,506 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,515 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,523 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,530 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,538 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,547 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,553 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,562 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,572 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,581 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,596 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,605 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,613 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,625 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,632 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,641 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,664 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,678 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,693 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,713 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,727 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,733 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,742 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,748 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,757 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,765 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,774 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,780 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,787 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,793 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,800 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,809 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,817 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,830 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,836 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,845 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,854 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,862 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,871 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,879 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,892 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,901 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,911 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,918 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,926 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,933 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,947 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,973 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,988 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:17,997 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,008 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,023 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,047 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,061 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,070 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,078 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,087 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,102 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,108 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,117 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,125 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,134 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,141 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,151 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,162 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,177 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,188 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,196 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,205 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,214 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,222 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,229 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,244 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,259 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,269 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,278 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,301 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,324 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,339 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,350 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,364 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,379 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,394 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,409 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,417 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,428 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,434 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,455 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,470 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,481 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,491 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,506 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,514 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,523 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,532 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,538 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,547 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,555 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,564 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,571 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,577 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,584 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,592 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,603 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,612 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,620 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,640 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,650 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,659 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,667 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,675 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,684 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,695 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,705 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,714 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,720 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,727 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,733 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,740 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,753 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,768 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,776 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,782 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,789 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,812 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,827 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,839 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,854 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,865 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,873 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,886 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,899 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,907 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,914 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,922 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,929 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,937 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,965 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,976 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,986 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:18,995 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,005 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,014 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,023 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,038 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,044 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,059 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,067 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,086 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,093 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,104 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,114 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,127 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,138 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,144 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,153 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,161 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,168 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,177 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,185 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,192 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,199 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,207 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,213 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,220 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,247 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,258 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,266 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,279 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,292 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,298 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,309 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,315 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,322 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,328 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,335 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,344 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,352 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,359 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,367 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,382 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,388 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,395 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,401 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,414 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,435 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,456 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,477 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,492 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,500 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,508 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,519 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,534 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,547 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,553 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,559 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,572 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,585 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,598 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,607 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,615 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,622 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,630 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,645 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,660 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,674 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,685 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,694 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,702 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,711 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,723 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,730 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,738 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,745 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,751 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,758 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,764 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,777 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,783 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,793 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,807 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,822 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,833 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,841 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,850 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,858 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,865 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,877 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,884 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,892 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,899 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,905 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,912 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,918 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,927 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,936 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,957 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,971 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,980 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,989 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:19,997 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,006 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,013 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,019 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,026 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,040 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,047 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,053 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,062 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,073 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,081 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,090 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,098 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,107 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,134 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,144 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,154 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,162 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,173 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,183 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,213 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,233 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,255 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,264 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,274 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,288 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,297 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,312 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,320 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,335 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,350 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,358 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,365 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,371 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,380 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,393 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,407 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,414 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,420 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,427 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,434 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,440 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,462 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,477 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,485 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,494 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,500 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,516 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,530 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,545 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,560 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,568 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,577 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,586 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,600 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,609 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,618 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,636 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,648 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,656 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,665 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,673 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,684 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,690 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,699 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,713 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,722 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,731 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,739 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,748 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,757 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,768 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,778 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,785 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,791 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,804 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,813 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,819 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,828 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,834 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,848 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,856 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,865 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,873 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,879 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,886 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,892 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,901 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,907 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,920 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,926 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,933 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,939 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,977 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+2016-12-26 18:14:20,992 10 MainThread connect    SOCKET ERROR: [Errno 111] Connection refused
+-----------------------------
+----------18:15:30----------
+-----------------------------
+2016-12-26 18:15:30,413 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:15:30,413 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:15:30,413 20 MainThread accept     Opening connection
+2016-12-26 18:15:50,001 10 MainThread main       
+CLOSING SOCKETS
+2016-12-26 18:15:50,002 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:15:50,002 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------18:17:46----------
+-----------------------------
+2016-12-26 18:17:46,156 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:17:46,157 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:17:46,157 20 MainThread accept     Opening connection
+2016-12-26 18:17:51,473 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,474 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:17:51,474 20 MainThread accept     Opening connection
+2016-12-26 18:17:51,475 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,476 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,476 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,476 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,476 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,477 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,477 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,477 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,477 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,477 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,477 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,480 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,480 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,480 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,481 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,481 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,649 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,650 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,650 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,650 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,651 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,651 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,651 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,651 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,651 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,652 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,653 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,653 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,653 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,653 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,718 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,719 10 Thread-2   receive_message receiving message
+2016-12-26 18:17:51,782 10 Thread-2   receive_message ERROR: Connection was closed on the other side
+2016-12-26 18:17:51,783 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 18:17:52,313 10 Thread-4   google     Google Speech Recognition could not understand audio
+2016-12-26 18:17:55,018 10 Thread-5   bing       Microsoft Bing Voice Recognition could not understand audio
+2016-12-26 18:18:38,921 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,922 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:18:38,922 20 MainThread accept     Opening connection
+2016-12-26 18:18:38,926 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,927 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,927 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,927 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,927 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,927 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,928 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,929 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,929 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,929 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,929 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,930 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,930 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,930 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,930 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,931 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,932 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,932 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,933 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,934 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,934 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,935 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,935 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,936 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,959 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:38,959 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,023 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,023 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,086 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,086 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,150 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,150 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,153 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,215 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,215 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,278 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,278 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,342 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,342 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,406 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,406 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,470 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,470 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,534 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,534 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,598 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,598 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,662 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,662 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,666 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,732 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,732 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,733 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,795 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,795 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,799 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,854 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,854 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,918 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,919 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,921 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,982 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,982 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:39,982 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,046 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,047 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,110 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,111 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,174 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,175 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,178 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,239 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,239 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,302 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,303 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,366 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,367 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,430 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,431 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,494 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,495 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,558 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,558 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,622 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,623 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,686 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,687 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,690 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,750 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,754 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,814 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,815 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,878 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,879 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,942 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:40,943 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,006 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,007 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,082 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,082 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,137 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,138 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,150 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,215 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,216 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,228 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,262 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,263 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,326 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,327 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,390 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,391 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,454 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,455 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,519 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,519 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,582 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,583 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,646 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,647 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,710 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,711 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,714 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,774 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,775 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,838 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,839 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,902 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,903 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,966 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,966 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:41,966 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,031 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,032 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,032 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,094 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,095 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,158 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,159 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,222 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,223 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,226 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,283 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,284 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,355 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,355 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,415 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,416 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,478 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,479 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,482 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,549 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,550 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,606 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,607 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,670 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,671 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,737 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,738 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,798 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,799 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,862 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,863 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,926 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,927 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,990 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,991 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:42,991 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,054 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,055 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,118 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,119 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,180 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,180 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,229 10 MainThread main       
+CLOSING SOCKETS
+2016-12-26 18:18:43,229 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:18:43,230 20 MainThread destroy    CLOSING SOCKET
+2016-12-26 18:18:43,243 10 Thread-6   receive_message receiving message
+2016-12-26 18:18:43,244 10 Thread-6   receive_message SOCKET ERROR: [Errno 9] Bad file descriptor
+-----------------------------
+----------18:22:59----------
+-----------------------------
+2016-12-26 18:22:59,960 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:22:59,961 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:22:59,961 20 MainThread accept     Opening connection
+2016-12-26 18:23:06,415 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:23:06,415 20 MainThread accept     Opening connection
+2016-12-26 18:23:06,678 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 18:23:12,697 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:23:12,698 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------18:23:15----------
+-----------------------------
+2016-12-26 18:23:15,425 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:23:15,426 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:23:15,426 20 MainThread accept     Opening connection
+2016-12-26 18:23:36,143 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:23:36,144 20 MainThread accept     Opening connection
+2016-12-26 18:23:36,413 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 18:27:40,573 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:27:40,574 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------18:27:47----------
+-----------------------------
+2016-12-26 18:27:47,984 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:27:47,985 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:27:47,985 20 MainThread accept     Opening connection
+2016-12-26 18:29:22,331 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:29:22,332 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------18:29:24----------
+-----------------------------
+2016-12-26 18:29:24,405 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:29:24,406 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:29:24,406 20 MainThread accept     Opening connection
+2016-12-26 18:29:34,001 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:29:34,002 20 MainThread accept     Opening connection
+2016-12-26 18:29:36,173 20 Thread-2   disconnect CLOSING CONNECTION
+2016-12-26 18:29:44,258 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:29:44,258 20 MainThread accept     Opening connection
+2016-12-26 18:29:46,798 20 Thread-6   disconnect CLOSING CONNECTION
+2016-12-26 18:29:53,893 20 Thread-1   speechToText Command: 
+
+light|on|all||/
+-----------------------------
+----------18:30:53----------
+-----------------------------
+2016-12-26 18:30:53,401 20 MainThread __init__   OPENING SOCKET
+-----------------------------
+----------18:31:15----------
+-----------------------------
+2016-12-26 18:31:15,493 20 MainThread __init__   OPENING SOCKET
+-----------------------------
+----------18:32:45----------
+-----------------------------
+2016-12-26 18:32:45,274 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:32:45,274 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:32:45,274 20 MainThread accept     Opening connection
+2016-12-26 18:33:18,879 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:33:18,880 20 MainThread destroy    CLOSING SOCKET
+-----------------------------
+----------18:33:20----------
+-----------------------------
+2016-12-26 18:33:20,485 20 MainThread __init__   OPENING SOCKET
+2016-12-26 18:33:20,485 20 MainThread main       
+Listening for incoming connections...
+2016-12-26 18:33:20,485 20 MainThread accept     Opening connection
+2016-12-26 18:33:47,755 20 MainThread disconnect CLOSING CONNECTION
+2016-12-26 18:33:47,756 20 MainThread destroy    CLOSING SOCKET
