@@ -167,7 +167,7 @@ class Server(Connection):
 			#######################
 
 			file.close()
-		except IOError:
+		except IOError as e:
 			self.log.debug('IO ERROR: ' + str(e))
 		except Exception as e:
 			self.log.debug('ERROR: ' + str(e))
@@ -281,7 +281,7 @@ class Client(Connection):
 
 			file.close()
 			###############################
-		except IOError:
+		except IOError as e:
 			self.log.debug('ERROR: ' + str(e))
 		except KeyboardInterrupt:
 			self.log.debug("Finished")
@@ -304,7 +304,7 @@ class Client(Connection):
 			self.s.sendall(message)
 
 			###############################
-		except IOError:
+		except IOError as e:
 			self.log.debug('ERROR: ' + str(e))
 		except KeyboardInterrupt:
 			self.log.debug('Finished')

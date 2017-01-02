@@ -167,7 +167,7 @@ class Server(Connection):
 			#######################
 
 			file.close()
-		except IOError:
+		except IOError as e:
 			self.log.debug('IO ERROR: ' + str(e))
 		except Exception as e:
 			self.log.debug('ERROR: ' + str(e))
@@ -184,7 +184,6 @@ class Server(Connection):
 		"""
 
 		try:
-			self.log.debug('receiving message')
 			###############################
 
 			data = self.conn.recv(nbytes)
@@ -204,8 +203,6 @@ class Server(Connection):
 			self.log.debug('SOCKET TIMEOUT: ' + str(e))
 		except Exception as e:
 			self.log.debug('ERROR: error receiving message')
-		else:
-			self.log.info('Finished sending')
 
 	def destroy(self):
 		""" Destructor method for class.
@@ -284,7 +281,7 @@ class Client(Connection):
 
 			file.close()
 			###############################
-		except IOError:
+		except IOError as e:
 			self.log.debug('ERROR: ' + str(e))
 		except KeyboardInterrupt:
 			self.log.debug("Finished")
@@ -302,18 +299,16 @@ class Client(Connection):
 		"""
 
 		try:
-			self.log.debug('Sending message')
 			###############################
 
 			self.s.sendall(message)
 
 			###############################
-		except IOError:
+		except IOError as e:
 			self.log.debug('ERROR: ' + str(e))
 		except KeyboardInterrupt:
 			self.log.debug('Finished')
-		else:
-			self.log.debug('Finished sending')
+			
 
 	def destroy(self):
 		""" Destructor method for class.
