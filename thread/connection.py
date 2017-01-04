@@ -18,15 +18,14 @@ class Connection(object):
 	"""
 
 	def __init__(self, HOST='', PORT=57000):
-		''' Constructor method for class Connect.
+		""" Constructor method for class Connect.
 
 		Opens a network socket on the Host and Port specified by the user
 
 		Args:
 			HOST (str): Host machine to the socket, defaults to empty (localhost).
 			PORT (int): Port in which the socket will be running. Defaults to 57000.
-
-		'''
+		""" 
 
 		while True:
 			print 'OPENING SOCKET'
@@ -47,8 +46,7 @@ class Connection(object):
 				self.log.debug('SOCKET TIMEOUT: ' + str(e))
 			except Exception as e:
 				self.log.debug('ERROR OPENING SOCKET: ' + str(e))
-		
-
+			
 	def destroy(self):
 		""" Destructor method for class Connection.
 
@@ -100,7 +98,7 @@ class Server(Connection):
 		attempts = 0
 		while True:
 			try:
-				print str((self.HOST, self.PORT))
+				self.log.info(str((self.HOST, self.PORT)))
 				self.s.bind((self.HOST, self.PORT))
 				self.s.listen(connections)
 
@@ -141,34 +139,38 @@ class Server(Connection):
 
 		self.connected = True
 
+	#============================================================================ SEND FROM SERVER
 
-	def receive_file(self, nbytes = 1024, filename = 'temp.wav', path = ''):
-		""" Receives a file from socket connection.
+	def send_message(self, message=''):
+		""" Send a message to a server
 		
-		Args:
-			nbytes {number} -- Number of bytes read at a time from socket. (default: {1024})
-			filename {str} -- Name of the file. (default: {'temp.wav'})
-			path {str} -- Path to the file. (default: {''})
+		Keyword Arguments:
+			message {str} -- Message to be sent. (default: {''})
 		"""
+
 		try:
-			file = open(path+filename, 'w')
+			# print 'Sending message'
+			###############################
 
-			#######################
-			while True:
-				data = self.conn.recv(nbytes)
-				if not data:
-					self.log.debug('ERROR: Connection was closed on the other side')
-					self.disconnect()
-					break
+			self.conn.sendall(message)
 
-				file.write(data)
-			#######################
-
-			file.close()
-		except IOError:
-			self.log.debug('IO ERROR: ' + str(e))
-		except Exception as e:
+			###############################
+		except IOError as e:
 			self.log.debug('ERROR: ' + str(e))
+		except socket.error as e:
+			self.log.debug('SOCKET ERROR: ' + str(e))
+		except socket.herror as e:
+			self.log.debug('SOCKET HERROR: ' + str(e))
+		except socket.gaierror as e:
+			self.log.debug('SOCKET GAIERROR: ' + str(e))
+		except socket.timeout as e:
+			self.log.debug('SOCKET TIMEOUT: ' + str(e))
+		except KeyboardInterrupt:
+			self.log.debug('Finished')
+		else:
+			self.log.debug('Finished sending')
+
+	#============================================================================ RECV FROM SERVER
 
 	def receive_message(self, nbytes = 1024):
 		""" Receives a message on a socket.
@@ -182,13 +184,13 @@ class Server(Connection):
 		"""
 
 		try:
-			self.log.info('receiving message')
+			# self.log.info('receiving message')
 			###############################
 
 			data = self.conn.recv(nbytes)
 			if not data: #Socket has closed on the other end
 				self.log.debug('ERROR: Connection was closed on the other side')
-				self.disconnect()
+				self.destroy()
 			return data
 
 			###############################
@@ -258,39 +260,9 @@ class Client(Connection):
 				self.log.debug('ERROR CONNECTING SOCKET: ' + str(e))
 				self.log.debug('Attempts: ' + str(attempts))
 			attempts+=1
-	
-	def send_file(self, filename, path=''):
-		""" Send a file to the server on a socket. 
-		
-		Args:
-			filename {str} -- Name of the file
-			path {str} -- Path to file(default: {''})
-		"""
 
-		closenow = False
-		if not self.connected:
-			self.connect()
-			closenow = True
+	#============================================================================ SEND FROM CLIENT
 
-		try:
-			self.log.info('Sending file')
-			###############################
-			file = open(path+filename, 'r')
-
-			for line in file.readlines():
-				self.s.sendall(line)
-
-			file.close()
-			###############################
-		except IOError:
-			self.log.debug('ERROR: ' + str(e))
-		except KeyboardInterrupt:
-			self.log.debug("Finished")
-		else:
-			self.log.info('Finished sending')
-
-		if closenow:
-			self.destroy()
 
 	def send_message(self, message=''):
 		""" Send a message to a server
@@ -300,19 +272,65 @@ class Client(Connection):
 		"""
 
 		try:
-			print 'Sending message'
+			# print 'Sending message'
 			###############################
 
 			self.s.sendall(message)
 
 			###############################
-		except IOError:
+		except IOError as e:
 			self.log.debug('ERROR: ' + str(e))
+		except socket.error as e:
+			self.log.debug('SOCKET ERROR: ' + str(e))
+		except socket.herror as e:
+			self.log.debug('SOCKET HERROR: ' + str(e))
+		except socket.gaierror as e:
+			self.log.debug('SOCKET GAIERROR: ' + str(e))
+		except socket.timeout as e:
+			self.log.debug('SOCKET TIMEOUT: ' + str(e))
 		except KeyboardInterrupt:
 			self.log.debug('Finished')
 		else:
 			self.log.debug('Finished sending')
 
+	#============================================================================ RECV FROM CLIENT
+	
+	def receive_message(self, nbytes = 1024):
+		""" Receives a message on a socket.
+		
+		
+		Args:
+			nbytes {number} -- number of bytes in message (default: {1024})
+
+		Returns:
+			data   {str}  -- message received
+		"""
+
+		try:
+			# self.log.info('receiving message')
+			###############################
+
+			data = self.s.recv(nbytes)
+			if not data: #Socket has closed on the other end
+				self.log.debug('ERROR: Connection was closed on the other side')
+				self.destroy()
+			return data
+
+			###############################
+		except socket.error as e:
+			self.log.debug('SOCKET ERROR: ' + str(e))
+		except socket.herror as e:
+			print 'SOCKET HERROR: ' + str(e)
+		except socket.gaierror as e:
+			self.log.debug('SOCKET GAIERROR: ' + str(e))
+		except socket.timeout as e:
+			self.log.debug('SOCKET TIMEOUT: ' + str(e))
+		except Exception as e:
+			self.log.debug('ERROR: error receiving message')
+		else:
+			self.log.info('Finished sending')
+
+	#============================================================================ END OF CLIENT
 	def destroy(self):
 		""" Destructor method for class.
 

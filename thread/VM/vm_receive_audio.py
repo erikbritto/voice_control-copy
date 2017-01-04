@@ -64,6 +64,12 @@ class AudioProcessing():
 		vc_logging.init_logger(level = args.log_level, verbose = args.verbose)
 		self.log = logging.getLogger("vc_logger")
 
+		#Try with 127.0.0.1
+		HOST = '' #Self
+
+		self.PORT_RECV = int(args.port_recv)
+		self.PORT_SEND = int(args.port_send)
+
 		self.FORMAT = FORMAT
 		self.CHANNELS = CHANNELS
 		self.RATE = RATE
@@ -76,13 +82,12 @@ class AudioProcessing():
 		self.LOCK = Lock()
 
 		self. SAVED_FILES = 0
-		#self.RECOGNIZERS = (self.wit,self.google,self.bing)
-		self.RECOGNIZERS = (self.wit,self.bing)
+		self.RECOGNIZERS = (self.wit,self.google,self.bing)
 
-		#self.services = ('Wit.ai', 'Google', 'Bing', 'Google Cloud')
-		self.services = ('Wit.ai', 'Bing', 'Cloud')
+		self.services = ('Wit.ai', 'Google', 'Bing', 'Google Cloud')
 		self.keys = {
 			'Wit.ai' : "YY76MAH6SUSS2QHLHOHWMVXIACVBRWSJ", # Wit.ai keys are 32-character uppercase alphanumeric strings
+			'Google' : None,
 			'Bing'   : "584daf06114c4695b82c234182bac530"  # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
 		}
 
@@ -170,38 +175,22 @@ class AudioProcessing():
 			start = timeit.default_timer()
 			response = service_request.execute()
 			stop = timeit.default_timer()
-
 			json_response = response['results'][0]['alternatives'][0]
 
 			confidence = json_response['confidence']
-			original_speech = json_response['transcript']
+			speech = json_response['transcript']
 			
-			running_time = stop-start
+			
+			self.log.info('Google Cloud (running time ' + str(stop-start) 
+					+ ', confidence ' + str(confidence) + '): ' + speech)
+			speech = multi_replace(self.similar,speech)
 
-			speech = multi_replace(self.similar,original_speech)
-
-			wit_start = timeit.default_timer()
 			client = Wit(access_token=self.keys['Wit.ai'])
 			message = client.message(msg = speech, verbose = True)
-			wit_end = timeit.default_timer()
 			
-			d['Cloud'] = message
-			end = timeit.default_timer()
-
-			self.log.warning('Google Cloud:' + original_speech
-				+ '\nRunning time: ' + str(running_time)
-				+ '\nWit intent processing running time: ' + str(wit_end - wit_start)
-				+ '\nTotal running time: ' + str(end-start))
-
-			log_message = 'Google Cloud (running time ' + str(running_time) \
-				+ ', confidence ' + str(confidence) + '):\n' + original_speech \
-				+ '\nWit intent processing running time: ' + str(wit_end - wit_start) \
-				+ '\nTotal running time: ' + str(end-start)
-
-			self.log.info(log_message)
-
+			d['Google Cloud'] = message
 		except Exception as e:
-			d['Cloud'] = {}
+			d['Google Cloud'] = {}
 			self.log.debug("Google Cloud ERROR: " + str(e))
 
 
@@ -212,34 +201,15 @@ class AudioProcessing():
 		try:
 
 			start = timeit.default_timer()
-			response = r.recognize_google(audio)['alternatives'][0]
+			speech = r.recognize_google(audio)
 			stop = timeit.default_timer()
+			self.log.info('Google (running time ' + str(stop-start) + '): ' + speech)
+			speech = multi_replace(self.similar,speech)
 
-			confidence = response['confidence']
-			original_speech = response['transcript']
-
-			running_time = stop-start
-
-			speech = multi_replace(self.similar,original_speech)
-
-			self.log.info('Google (running time ' + str(stop-start) 
-					+ ', confidence ' + str(confidence) + '): ' + speech)
-			
-			wit_start = timeit.default_timer()
 			client = Wit(access_token=self.keys['Wit.ai'])
 			message = client.message(msg = speech, verbose = True)
-			wit_end = timeit.default_timer()
-
 
 			d['Google'] = message
-			end = timeit.default_timer()
-
-			log_message = 'Google (running time ' + str(running_time) \
-				+ ', confidence ' + str(confidence) + '):\n' + original_speech \
-				+ '\nWit intent processing running time: ' + str(wit_end - wit_start) \
-				+ '\nTotal running time: ' + str(end-start)
-
-			self.log.info(log_message)
 
 		except sr.UnknownValueError:
 			d['Google'] = {}
@@ -248,9 +218,6 @@ class AudioProcessing():
 			d['Google'] = {}
 			self.log.debug("Could not request results from \
 				Google Speech Recognition service; {0}".format(e))
-		except Exception as e:
-			d['Google'] = {}
-			self.log.debug("Google - ERROR: " + str(e))
 
 
 	def wit(self, audio,d):
@@ -261,24 +228,14 @@ class AudioProcessing():
 			start = timeit.default_timer()
 			speech = r.recognize_wit(audio, key=self.keys['Wit.ai'], show_all = True)
 			stop = timeit.default_timer()
+			self.log.info('Wit.ai (running time ' + str(stop-start) + '): '+ speech['_text'])
 			d['Wit.ai'] = speech
-
-			running_time = stop-start
-
-			self.log.info('Wit.ai (running time ' + str(running_time) + '):\n'+ speech['_text'])
-
-			self.log.warning('Wit:' + speech['_text']
-				+ '\nTotal running time: ' + str(running_time))
-
 		except sr.UnknownValueError:
 			d['Wit.ai'] = {}
 			self.log.debug("Wit.ai could not understand audio")
 		except sr.RequestError as e:
 			d['Wit.ai'] = {}
 			self.log.debug("Could not request results from Wit.ai service; {0}".format(e))
-		except Exception as e:
-			d['Wit.ai'] = {}
-			self.log.debug("Wit - ERROR: " + str(e))
 
 
 	def bing(self, audio,d):
@@ -287,36 +244,15 @@ class AudioProcessing():
 
 		try:
 			start = timeit.default_timer()
-			response = (r.recognize_bing(audio, key=self.keys['Bing'], show_all = True))['results'][0]
+			speech = r.recognize_bing(audio, key=self.keys['Bing'])
 			stop = timeit.default_timer()
+			self.log.info('Bing (running time ' + str(stop-start) + '): '+ speech)
 
-			confidence = response['confidence']
-			original_speech = response['lexical']
-			
-			running_time = stop-start
-
-			speech = multi_replace(self.similar,original_speech)
-
-			wit_start = timeit.default_timer()
+			speech = multi_replace(self.similar,speech)
 			client = Wit(access_token=self.keys['Wit.ai'])
 			message = client.message(msg = speech, verbose = True)
-			wit_end = timeit.default_timer()
 
 			d['Bing'] = message
-			end = timeit.default_timer()
-
-			self.log.warning('Bing:' + original_speech
-				+ '\nRunning time: ' + str(running_time)
-				+ '\nWit intent processing running time: ' + str(wit_end - wit_start)
-				+ '\nTotal running time: ' + str(end-start))
-
-			log_message = 'Bing (running time ' + str(running_time)\
-				+ ', confidence ' + str(confidence) + '):\n' + original_speech\
-				+ '\nWit intent processing running time: ' + str(wit_end - wit_start)\
-				+ '\nTotal running time: ' + str(end-start)
-
-			self.log.info(log_message)
-
 
 		except sr.UnknownValueError:
 			d['Bing'] = {}
@@ -325,9 +261,6 @@ class AudioProcessing():
 			d['Bing'] = {}
 			self.log.debug("Could not request results from Microsoft Bing Voice Recognition \
 				service; {0}".format(e))
-		except Exception as e:
-			d['Bing'] = {}
-			self.log.debug("Bing - ERROR: " + str(e))
 
 
 # ===================================== RECOGNIZERS =================================
@@ -379,8 +312,11 @@ class AudioProcessing():
 		return result
 
 
-	def speechToText(self):#, send_socket):
+	def speechToText(self, send_socket):
 		print('Starting Recognizer thread')
+
+		r = sr.Recognizer()
+		rec_functions = (r.recognize_wit, r.recognize_google, r.recognize_bing)
 
 		while True:
 			frames = self.AUDIO_QUEUE.get()
@@ -427,27 +363,26 @@ class AudioProcessing():
 
 			if text:
 				self.log.info("Command: \n\n" + text)
-				#send_socket.send_message(text)
+				print 'Sending'		
+				send_socket.send_message(text)
+				print 'Sent'
 
 
 	def main(self, save = False, play = False):
-		#Try with 127.0.0.1
-		HOST_RECV = ''
-
-		HOST_SEND = '192.168.0.37'  # Socket server's IP (actuator)
-
-		PORT = 57000
-
+	
 		#Open receiving end
-		recv_socket = connection.Server(HOST_RECV, PORT)
+		recv_socket = connection.Server(self.HOST, self.PORT_RECV)
 		recv_socket.connect()
 
 		#Open sending end
-		#send_socket = connection.Client(HOST_SEND, PORT)
-		#send_socket.connect()
+		send_socket = connection.Server(self.HOST, self.PORT_SEND)
+		send_socket.connect()
+		send_socket.accept()
+
 		#Opening threads
-		stt_thread = Thread(target=self.speechToText)#, args = (send_socket,))
+		stt_thread = Thread(target=self.speechToText, args = (send_socket,))
 		stt_thread.start()
+
 
 		try:
 			while True:
@@ -466,7 +401,7 @@ class AudioProcessing():
 		finally:
 			self.log.debug('\nCLOSING SOCKETS')
 			recv_socket.destroy()
-			#send_socket.destroy()
+			send_socket.destroy()
 			self.AUDIO_QUEUE.put(None)
 
 
@@ -474,6 +409,8 @@ class AudioProcessing():
 if __name__ == '__main__':
 	try:
 		parser = argparse.ArgumentParser(description='Voice Recording Logging')
+		parser.add_argument('--port-recv', action="store", default=5007, help='Select the port through which the program will receive data.')
+		parser.add_argument('--port-send', action="store", default=5008, help='Select the port through which the program will send data.')
 		parser.add_argument('--log-level', action="store", type=str,
 						choices=["critical", "error", "warning", "info", "debug", "notset"],
 						default="info", help='Select the log level of the program.')
@@ -483,7 +420,6 @@ if __name__ == '__main__':
 		args = parser.parse_args()
 	except Exception as e:
 		print 'ERROR PARSING ARGUMENTS'
-
 	try:
 		ap = AudioProcessing(args)
 

@@ -78,13 +78,15 @@ class Actuator():
 
 	def main(self):
 		
-		conn = connection.Server()
+		HOST = "192.168.0.98" #IP of Bristol VM
+		PORT = 5008
+
+		conn = connection.Client(HOST, PORT)
 
 		try:
 			print 'Opening connection'
 
 			conn.connect()
-			conn.accept()
 
 			while True:
 
@@ -110,7 +112,6 @@ class Actuator():
 		except Exception as e:
 			self.log.debug("ERROR: " + str(e))
 		finally:
-			conn.disconnect()
 			conn.destroy()
 			self.log.debug('Finishing program')
 
