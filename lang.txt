@@ -1,0 +1,52 @@
+turn on lights
+turn on all lights
+turn on light one
+turn on light two
+turn on light three
+turn on light one two
+turn on lights one three
+turn on lights two three
+turn on light three
+turn off lights
+lights on
+lights off
+lights on color red
+lights on color blue
+lights on color green
+lights on color pink
+lights on color white
+lights on color yellow
+lights on brightness up
+lights on brightness down
+lights red
+lights blue
+lights green
+lights pink
+lights white
+lights yellow
+light one red
+light one blue
+light one green
+light one pink
+light one white
+light one yellow
+light two red
+light two blue
+light two green
+light two pink
+light two white
+light two yellow
+light three red
+light three blue
+light three green
+light three pink
+light three white
+light three yellow
+light brightness up
+light one brightness down
+turn off all lights
+light one color red brightness up
+light two color green brightness down
+lights one three color blue brightness up
+lights on green brightess up
+lights on color red brightness up
