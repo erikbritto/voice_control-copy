@@ -1,8 +1,27 @@
 class Command():
 
 	options = ('light_number', 'on_off','color', 'brightness_number')
+	colors = ('red', 'blue', 'white', 'yellow', 'green', 'pink')
+
+	bri = {
+		'up':'+20',
+		'down' : '-20',
+		'high':'100',
+		'low' : '0',
+		'medium' : '50'
+	}
 
 	def __init__(self, command, MAX_LAMPS = 3):
+		"""Constructor for class
+		
+		Sets the command, stores its intents and validates.
+		
+		Arguments:
+			command {[command]} -- List with each intent
+		
+		Keyword Arguments:
+			MAX_LAMPS {number} -- Maximum number of lamps (default: {3})
+		"""
 		self.command = command
 		self.valid = False
 		self.cmd_var = { 
@@ -18,6 +37,17 @@ class Command():
 
 
 	def set_command(self, command, MAX_LAMPS = 3):
+		"""Sets a new command
+		
+		Performs the same action as the constructor. To be used if in case of
+		reutilizing the same object instance
+		
+		Arguments:
+			command {[command]} -- List with each intent
+		
+		Keyword Arguments:
+			MAX_LAMPS {number} -- Maximum number of lamps (default: {3})
+		"""
 		self.command = command
 		self.valid = False
 		self.cmd_var = { 
@@ -34,12 +64,10 @@ class Command():
 
 
 	def __store_intents(self):
+		"""Stores intents in the dictinary cmd_var"""
 
-		#TODO log confidence
-		
 		entities = {}
 		
-		#TODO
 		self.text = self.command['_text']
 		entities = self.command['entities']
 
@@ -55,6 +83,8 @@ class Command():
 
 
 	def __validate_command(self):
+
+		#Checks if lights are valid
 		lights = (self.cmd_var['light_number'][:-1]).split(',')
 		n_lights = []
 		for l in lights:
@@ -65,16 +95,36 @@ class Command():
 				n_lights.append(l)
 		self.cmd_var['light_number'] = ','.join(n_lights) + ','
 
-		if not (self.cmd_var['color'][:-1] in ('red', 'blue', 'white', 'yellow', 'green', 'pink')):
+		#Checks if color is valid
+		if not (self.cmd_var['color'][:-1] in self.colors):
 			self.cmd_var['color'] = ''
 
-		#Check if brightness value is in range
+		#Checks if brightness is valid
 		if self.cmd_var['brightness_number'] != '':
-			if not (0 <= int(self.cmd_var['brightness_number'][:-1]) <= 100):
+			#Checks if brightness is one of the default values
+			if self.cmd_var['brightness_number'][:-1] in self.bri.keys():
+				self.cmd_var['brightness_number'] = self.bri[
+						self.cmd_var['brightness_number'][:-1]]+','
+
+			#Check if brightness value is in range
+			elif not (0 <= int(self.cmd_var['brightness_number'][:-1]) <= 100):
 				self.cmd_var['brightness_number'] = ''
 
 
 	def format_command(self):
+		"""Returns a list with the recognized commands
+		
+		The return list consists of five positions. The first position is the
+		word light, that is present if the intent is 'change_lamp_state'.
+		The second position is a list with the lights selected or all.
+		The third position is the state - 'on' or 'off'
+		The fourth position is the color
+		The fifth position is the brightness value.
+		If any of the commands were not found, its position is set with ''
+		
+		Returns:
+			[str] -- The list with the 
+		"""
 
 		if self.valid:
 			command = ['light']
@@ -86,7 +136,7 @@ class Command():
 		return command
 
 
-	def isValid(self):
+	def is_valid(self):
 		return self.valid
 
 
