@@ -5,7 +5,7 @@ Smart Lights Over Voice Control
 > git clone https://futebolUFMG@bitbucket.org/futebolUFMG/voice_control.git
 
 2. Copy the files to each agent
->cd voice_control
+> cd voice_control
 > scp -r newconn/sensor pi@**_IP_RASPBERRY_SENSOR_**:~
 > scp -r newconn/VM **_USER_**@**_IP_VM_**:~
 > scp -r newconn/Actuator pi@**_IP_RASPBERRY_ACTUATOR_**:~
