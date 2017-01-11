@@ -324,7 +324,7 @@ if(__name__ == '__main__'):
 		parser = argparse.ArgumentParser(description='Voice Recording Logging')
 
 		parser.add_argument('--log-level', action="store", type=str,
-			choices=["critical", "error", "warning", "info", "debug", "notset"],
+			choices=["error", "warning", "info", "debug", "notset"],
 			default="info", help='Select the log level of the program.')
 
 		parser.add_argument('--verbose', default=False, action = 'store_true',

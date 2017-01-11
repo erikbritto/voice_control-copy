@@ -222,7 +222,7 @@ if __name__ == '__main__':
 			help='Select the port through which the program will send data.')
 
 		parser.add_argument('--log-level', action="store", type=str,
-			choices=["critical", "error", "warning", "info", "debug", "notset"],
+			choices=["error", "warning", "info", "debug", "notset"],
 			default="info", help='Select the log level of the program.')
 
 		parser.add_argument('--verbose', default=False, action = 'store_true',
