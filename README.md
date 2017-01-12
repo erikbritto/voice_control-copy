@@ -25,7 +25,6 @@ PORT_RECV and PORT_SEND default to 5007 and 5008 respectively.
 > python actuator.py [--log-level **_LOG_LEVEL_**] [--verbose]
 
 * The values for **_LOG_LEVEL_** are [error,warning,info,debug,notset]
-</p>
 
 #####**Commands:**
 * This system recognizes the following type of commands:
