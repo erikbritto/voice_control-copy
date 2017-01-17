@@ -194,7 +194,7 @@ class Intent():
 			bri_number = re.search(
 				'(brightness) (([0-9]+)|(up|down|high|low|medium))', l)
 			if bri_number:
-				dict_intents['brightness_number'] = \ 
+				dict_intents['brightness_number'] = \
 					[{'value':bri_number.group(2)}]
 
 			self.intents.append(dict_intents)
